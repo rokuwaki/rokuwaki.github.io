@@ -1,8 +1,17 @@
 body {
-    padding-top: 50px;
+    padding-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.starter-template {
+.custom-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+*[id]:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 75px; 
+    visibility: hidden; 
 }
