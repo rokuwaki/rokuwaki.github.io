@@ -3,9 +3,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1 contact {
+    text-align: center;
+}
+
 .custom-template {
     padding: 40px 15px;
-    text-align: center;
 }
 
 *[id]:before { 
@@ -14,4 +17,28 @@ body {
     margin-top: -75px; 
     height: 75px; 
     visibility: hidden; 
+}
+
+ol.ol-custom {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;line-height:1.4
+}
+@media (min-width:768px)
+{
+    ol.ol-custom {
+        font-size:18px
+    }
+}
+
+p.lead {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;line-height:1.4
+}
+@media (min-width:768px)
+{
+    p.lead {
+        font-size:18px
+    }
 }
