@@ -66,7 +66,40 @@ p.lead-contact {
     }
 }
 
-* b {font-weight: 400;}
+* b {
+    font-weight: 400;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-default {
   background-color: #b58900;
