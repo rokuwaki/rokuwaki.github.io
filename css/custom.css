@@ -93,6 +93,11 @@ footer {
     width: 100%;
 }
 
+a:link { color: #b58900; }
+a:visited { color: #b58900; }
+a:hover { color: #268bd2; }
+a:active { color: #268bd2; }
+
 
 
 .navbar-default {
