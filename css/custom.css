@@ -70,34 +70,28 @@ p.lead-contact {
     font-weight: 400;
 }
 
+hr {
+    height: 1px;
+    background-color: #fdf6e3;
+    border: none;
+    color: #fdf6e3;
+}
+
 footer {
     padding-top: 100px;
     text-align: center;
     font-weight: 200;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-justified {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.navbar .nav-justified > li {
+    display: table-cell;
+    width: 100%;
+}
 
 
 
@@ -190,3 +184,4 @@ footer {
     background-color: #eee8d5;
   }
 }
+
