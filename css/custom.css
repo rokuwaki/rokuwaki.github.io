@@ -1,22 +1,24 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 body {
     padding-top: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 200;
 }
 
 h1 {
     text-align: center;
     color: #b58900;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .custom-template {
     padding: 40px 15px;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .container {
-    font-weight: 300;
+    font-weight: 200;
 }
 @media (min-width:768px)
 {
@@ -37,24 +39,24 @@ h1 {
 .ol-custom {
     font-size: 14px;
     padding: 0 0 0 1.5em;
-    font-weight: 300;
+    font-weight: 200;
 }
 @media (min-width:768px)
 {
     .ol-custom {
-        font-size: 18px
+        font-size: 16px
     }
 }
 
 p.lead {
     font-size: 14px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
 }
 @media (min-width:768px)
 {
     p.lead {
-        font-size:18px
+        font-size:16px
     }
 }
 
