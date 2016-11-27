@@ -1,7 +1,7 @@
 body {
     padding-top: 15px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h1 {
@@ -12,11 +12,11 @@ h1 {
 
 .custom-template {
     padding: 40px 15px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .container {
-    font-weight: 200;
+    font-weight: 300;
 }
 @media (min-width:768px)
 {
@@ -37,7 +37,7 @@ h1 {
 .ol-custom {
     font-size: 14px;
     padding: 0 0 0 1.5em;
-    font-weight: 200;
+    font-weight: 300;
 }
 @media (min-width:768px)
 {
@@ -49,7 +49,7 @@ h1 {
 p.lead {
     font-size: 14px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
 }
 @media (min-width:768px)
 {
