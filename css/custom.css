@@ -1,18 +1,23 @@
 body {
     padding-top: 15px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h1 {
     text-align: center;
     color: #b58900;
+    font-weight: 300;
 }
 
 .custom-template {
     padding: 40px 15px;
+    font-weight: 200;
 }
 
+.container {
+    font-weight: 200;
+}
 @media (min-width:768px)
 {
    .container {
@@ -29,23 +34,22 @@ h1 {
     visibility: hidden; 
 }
 
-ol.ol-custom {
-    margin-bottom: 20px;
+.ol-custom {
     font-size: 14px;
-    font-weight: 300;line-height:1.4;
     padding: 0 0 0 1.5em;
+    font-weight: 200;
 }
 @media (min-width:768px)
 {
-    ol.ol-custom {
+    .ol-custom {
         font-size: 18px
     }
 }
 
 p.lead {
-    margin-bottom: 20px;
     font-size: 14px;
-    font-weight: 300;line-height:1.4;
+    text-align: center;
+    font-weight: 200;
 }
 @media (min-width:768px)
 {
@@ -54,36 +58,21 @@ p.lead {
     }
 }
 
-p.lead-center {
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: 300;line-height:1.4;
-    text-align: center;
-}
-@media (min-width:768px)
-{
-    p.lead-center {
-        font-size:18px
-    }
-}
-
 * b {
-    font-weight: 600;
-}
-
-hr {
-    height: 1px;
-    background-color: #fdf6e3;
-    border: none;
-    color: #fdf6e3;
+    font-weight: 300;
 }
 
 footer {
     padding-top: 100px;
     text-align: center;
-    font-weight: 300;
     font-size: 14px;
 }
+
+a:link { color: #b58900; }
+a:visited { color: #b58900; }
+a:hover { color: #268bd2; }
+a:active { color: #268bd2; }
+
 
 .nav-justified {
     display: table;
@@ -94,12 +83,6 @@ footer {
     display: table-cell;
     width: 100%;
 }
-
-a:link { color: #b58900; }
-a:visited { color: #b58900; }
-a:hover { color: #268bd2; }
-a:active { color: #268bd2; }
-
 
 .navbar-default {
   background-color: #b58900;
