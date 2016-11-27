@@ -53,7 +53,7 @@ p.lead {
     }
 }
 
-p.lead-contact {
+p.lead-center {
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 300;line-height:1.4;
@@ -61,7 +61,7 @@ p.lead-contact {
 }
 @media (min-width:768px)
 {
-    p.lead-contact {
+    p.lead-center {
         font-size:18px
     }
 }
