@@ -26,7 +26,6 @@ h1 {
     }
 }
 
-
 *[id]:before { 
     display: block; 
     content: " "; 
@@ -63,7 +62,6 @@ article {
     font-size: 14px;
     text-align: center;
     font-weight: 200;
-    margin-top: -20px;
 }
 @media (min-width:768px)
 {
@@ -72,14 +70,11 @@ article {
     }
 }
 
-
-
 * b {
     font-weight: 300;
 }
 
 footer {
-    padding-top: 100px;
     text-align: center;
     font-size: 14px;
 }
@@ -89,7 +84,7 @@ a:visited { color: #b58900; }
 a:hover { color: #268bd2; }
 a:active { color: #268bd2; }
 
-
+<!-- navbar custom -->
 .nav-justified {
     display: table;
     table-layout: fixed;
