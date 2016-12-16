@@ -1,5 +1,5 @@
 $('article').readmore({
     collapsedHeight: 73,
-    moreLink: '<a href="#" style="text-align: center"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>',
-    lessLink: '<a href="#" style="text-align: center"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>',
+    moreLink: '<a href="#" style="text-align: center"><i class="fa fa-angle-down"></i></a>',
+    lessLink: '<a href="#" style="text-align: center"><i class="fa fa-angle-up"></i></a>',
 });
