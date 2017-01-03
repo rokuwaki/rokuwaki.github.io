@@ -105,7 +105,7 @@ footer {
 a:link { color: #777; }
 a:visited { color: #777; }
 a:hover { color: black; }
-a:active { color: black; }
+a:active { color: #777; }
 
 <!-- navbar custom -->
 .nav-justified {
