@@ -155,3 +155,13 @@ hr {
     height: 1px;
     border-color: #777;
 }
+
+a:link > .fa-2x { color: #ccc; }
+a:visited > .fa-2x { color: #ccc; }
+a:hover > .fa-2x { color: black; }
+a:active > .fa-2x { color: black; }
+
+a:link > .ai-2x { color: #ccc; }
+a:visited > .ai-2x { color: #ccc; }
+a:hover > .ai-2x { color: black; }
+a:active > .ai-2x { color: black; }
