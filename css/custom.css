@@ -35,8 +35,14 @@ h1 {
 }
 
 .custom-template {
-    padding: 40px 15px;
+    padding: 80px 15px;
     font-weight: 200;
+}
+@media (min-width:768px)
+{
+    .custom-template {
+        padding: 40px 15px;
+    }
 }
 
 .Container {
@@ -52,9 +58,16 @@ h1 {
 *[id]:before { 
     display: block; 
     content: " "; 
-    margin-top: -75px; 
-    height: 75px; 
+    margin-top: -115px; 
+    height: 115px; 
     visibility: hidden; 
+}
+@media (min-width:768px)
+{
+    *[id]:before { 
+        margin-top: -75px; 
+        height: 75px; 
+    }
 }
 
 .ol-custom {
@@ -107,7 +120,6 @@ a:visited { color: #777; }
 a:hover { color: black; }
 a:active { color: black; }
 
-<!-- navbar custom -->
 .nav-justified {
     display: table;
     table-layout: fixed;
@@ -125,10 +137,10 @@ a:active { color: black; }
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: black;
+    color: black;
 }
 .navbar-default .navbar-toggle {
-  border-color: white;
+    border-color: white;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -165,3 +177,12 @@ a:link > .ai-2x { color: #ccc; }
 a:visited > .ai-2x { color: #ccc; }
 a:hover > .ai-2x { color: black; }
 a:active > .ai-2x { color: black; }
+
+
+
+@media (max-width:768px)
+{
+    .nav li {
+        display: inline-block;
+    }
+}
