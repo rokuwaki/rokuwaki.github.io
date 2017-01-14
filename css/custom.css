@@ -35,7 +35,7 @@ h1 {
 }
 
 .custom-template {
-    padding: 50px 15px;
+    padding: 60px 15px;
     font-weight: 200;
 }
 @media (min-width:768px)
@@ -58,8 +58,8 @@ h1 {
 *[id]:before { 
     display: block; 
     content: " "; 
-    margin-top: -85px; 
-    height: 85px; 
+    margin-top: -95px; 
+    height: 95px; 
     visibility: hidden; 
 }
 @media (min-width:768px)
@@ -139,13 +139,6 @@ a:active { color: black; }
 .navbar-default .navbar-nav > li > a:focus {
     color: black;
 }
-.navbar-default .navbar-toggle {
-    border-color: white;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    border-color: white;
-}
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -165,7 +158,7 @@ a:active { color: black; }
 hr {
     width: 100px;
     height: 1px;
-    border-color: #777;
+    border-color: #eee;
 }
 
 a:link > .fa-2x { color: #ccc; }
@@ -185,11 +178,19 @@ a:active > .ai-2x { color: black; }
     .nav li {
         display: inline-block;
     }
-
     .navbar-brand,
     .navbar-nav li a {
         line-height: 20px;
         height: 20px;
-        padding-top: 10px;
+    }
+    #navbar {
+        text-align: center;
+    }
+    .navbar-brand {
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align:center;
+        margin: auto;
     }
 }
