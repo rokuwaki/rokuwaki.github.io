@@ -35,7 +35,7 @@ h1 {
 }
 
 .custom-template {
-    padding: 80px 15px;
+    padding: 50px 15px;
     font-weight: 200;
 }
 @media (min-width:768px)
@@ -58,8 +58,8 @@ h1 {
 *[id]:before { 
     display: block; 
     content: " "; 
-    margin-top: -115px; 
-    height: 115px; 
+    margin-top: -85px; 
+    height: 85px; 
     visibility: hidden; 
 }
 @media (min-width:768px)
@@ -132,7 +132,7 @@ a:active { color: black; }
 
 .navbar-default {
     background-color: white;
-    border-color: white;
+    border-color: #eee;
     color: black;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -149,7 +149,7 @@ a:active { color: black; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: black;
+    color: black;
 }
 .navbar-default .navbar-nav > .active{
     color: black;
@@ -184,5 +184,12 @@ a:active > .ai-2x { color: black; }
 {
     .nav li {
         display: inline-block;
+    }
+
+    .navbar-brand,
+    .navbar-nav li a {
+        line-height: 20px;
+        height: 20px;
+        padding-top: 10px;
     }
 }
