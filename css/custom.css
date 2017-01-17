@@ -29,19 +29,24 @@ body {
 
 h1 {
     text-align: center;
-#    color: #b58900;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 22px;
+}
+@media (min-width:768px)
+{
+    h1 {
+        font-size: 24px;
+    }
 }
 
 .custom-template {
-    padding: 60px 15px;
+    padding: 50px 15px;
     font-weight: 200;
 }
 @media (min-width:768px)
 {
     .custom-template {
-        padding: 40px 15px;
+        padding: 30px 15px;
     }
 }
 
@@ -58,15 +63,15 @@ h1 {
 *[id]:before { 
     display: block; 
     content: " "; 
-    margin-top: -95px; 
-    height: 95px; 
+    margin-top: -85px; 
+    height: 85px; 
     visibility: hidden; 
 }
 @media (min-width:768px)
 {
     *[id]:before { 
-        margin-top: -75px; 
-        height: 75px; 
+        margin-top: -65px; 
+        height: 65px; 
     }
 }
 
@@ -159,6 +164,15 @@ hr {
     width: 100px;
     height: 1px;
     border-color: #eee;
+    margin-top:10px;
+    margin-bottom:7px;
+}
+@media (min-width:768px)
+{
+    hr {
+        margin-top:15px;
+        margin-bottom:10px;
+    }
 }
 
 a:link > .fa-2x { color: #ccc; }
