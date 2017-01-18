@@ -79,6 +79,19 @@ p.lead {
     }
 }
 
+p.lead-me {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+@media (min-width:768px)
+{
+    p.lead-me {
+        text-align: left;
+        font-size:16px
+    }
+}
+
 article {
     font-size: 14px;
     text-align: center;
@@ -154,7 +167,7 @@ a:active { color: black; }
 }
 
 hr {
-    width: 100px;
+    width: 90px;
     height: 1px;
     border-color: #eee;
     margin-top:10px;
