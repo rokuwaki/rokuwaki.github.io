@@ -88,7 +88,7 @@ p.lead-me {
 {
     p.lead-me {
         text-align: left;
-        font-size:16px
+        font-size: 16px;
     }
 }
 
@@ -213,4 +213,11 @@ a:active > .ai-2x { color: black; }
         text-align:center;
         margin: auto;
     }
+}
+
+p.lead img {
+    width: 150px;
+    align: middle;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
