@@ -4,7 +4,7 @@
 body {
     padding-top: 15px;
     font-family: 'Noto Sans Japanese', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 @media (min-width:768px)
 {
     h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
@@ -97,20 +97,25 @@ article {
     text-align: center;
     font-weight: 200;
 }
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+}
 @media (min-width:768px)
 {
     article {
         font-size:16px
     }
+    footer {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 200;
+    }
 }
 
 * b {
     font-weight: 300;
-}
-
-footer {
-    text-align: center;
-    font-size: 14px;
 }
 
 a:link { color: #777; }
@@ -129,9 +134,10 @@ a:active { color: black; }
 }
 
 .navbar-default {
-    background-color: rgba(255,255,255,0.9);
-    border-color: #eee;
+    background-color: white;
+    border-color: white;
     color: black;
+    font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:link,
@@ -142,6 +148,10 @@ a:active { color: black; }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: black;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 18px;
 }
 
 .navbar-default .navbar-brand:link,
@@ -218,6 +228,23 @@ a:active > .ai-2x { color: black; }
 p.lead img {
     width: 150px;
     align: middle;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px)
+{
+    .fixed {
+        position: fixed;
+        width: 223px;
+    }
+    .scrollit {
+        float: right;
+        width: 475px;
+    }
+}
+.fixed {
+    margin-bottom: 100px;
+}
+.contents-margin {
+    margin-bottom: 100px;
 }
