@@ -1,18 +1,25 @@
 @fa-font-path:   "fonts/font-awesome-4.7.0/font";
 @ai-font-path:   "fonts/academicons-1.7.0/font";
 
-* {
-    font-weight: 200 !important;
-}
-
 body {
     padding-top: 15px;
     font-family: 'Noto Sans Japanese', sans-serif;
 }
 
+p.lead, .slide, footer {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.sub-container {
+    margin-bottom: 50px;
+}
+
 h1 {
     text-align: center;
     font-size: 18px;
+    font-weight: 200;
 }
 
 .custom-template {
@@ -28,14 +35,11 @@ h1 {
 }
 
 .ol-custom {
-    font-size: 14px;
     padding: 0 0 0 2em;
+    font-size: 14px;
+    font-weight: 200;
 }
 
-p.lead, article, footer {
-    text-align: center;
-    font-size: 14px;
-}
 
 hr {
     width: 90px;
@@ -43,10 +47,6 @@ hr {
     border-color: #eee;
     margin-top:10px;
     margin-bottom:7px;
-}
-
-.fixed {
-    margin-bottom: 100px;
 }
 
 @media (min-width:768px)
@@ -64,9 +64,6 @@ hr {
         margin-top: -65px; 
         height: 65px; 
     }
-    .ol-custom, p.lead, article, footer {
-        font-size: 14px;
-    }
     .fixed {
         position: fixed;
         width: 185px;
@@ -81,10 +78,6 @@ p.lead img {
     width: 150px;
     align: middle;
     margin-bottom: 20px;
-}
-
-.contents-margin {
-    margin-bottom: 100px;
 }
 
 a:link,
@@ -113,10 +106,12 @@ a:active > .social-icon {
     background-color: white;
     border-color: white;
     font-size: 14px;
+    font-weight: 200;
 }
 
 .navbar-default .navbar-brand {
     font-size: 18px;
+    font-weight: 200;
 }
 
 .navbar-default .navbar-brand:link,
