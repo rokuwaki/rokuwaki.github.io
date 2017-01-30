@@ -6,6 +6,10 @@ body {
     font-family: 'Noto Sans Japanese', sans-serif;
 }
 
+footer > p:after {
+    content: "Mon Jan 30 22:47:34 JST 2017";
+}
+
 p.lead, .slide, footer {
     font-size: 14px;
     font-weight: 200;
@@ -49,6 +53,27 @@ hr {
     margin-bottom:7px;
 }
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .scrollit {
+        float: right;
+        width: 535px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .scrollit {
+        float: right;
+        width: 755px;
+    }
+}
+@media (min-width: 1200px) {
+    .scrollit {
+        float: right;
+        width: 955px;
+    }
+}
+
+
 @media (min-width:768px)
 {
     h1 {
@@ -58,7 +83,7 @@ hr {
         padding: 30px 15px;
     }
     .container {
-        max-width: 750px;
+        max-width: 100%;
     }
     *[id]:before { 
         margin-top: -65px; 
@@ -68,9 +93,13 @@ hr {
         position: fixed;
         width: 185px;
     }
-    .scrollit {
-        float: right;
-        width: 520px;
+    .navbar-brand {
+        text-align: center;
+        width: 185px;
+    }
+    #navbar > ul > li {
+        text-align: center;
+        width: 65px;
     }
 }
 
@@ -124,51 +153,23 @@ a:active > .social-icon {
     color: black;
 }
 
+#navbar > ul > li > a:active, #navbar > ul > li > a:hover {
+    border-bottom: solid 1px #eee;
+}
 @media (max-width:767px) 
 {
     .nav li {
         display: inline-block;
     }
-    .navbar-brand {
-        line-height: 20px;
-        height: 20px;
-    }
     #navbar {
         text-align: center;
     }
     .navbar-brand {
+        line-height: 20px;
+        height: 20px;
         width: 100%;
         left: 0;
         top: 0;
-        text-align:center;
-        margin: auto;
-    }
-    ul > li > a:active, ul > li > a:hover {
-        border-bottom: solid 1px #eee;
-    }
-}
-
-@media (min-width:768px) 
-{
-    .navbar ul {
-        width: 520px;
-        padding: 0 0 0 0;
-        text-align: center;
-    }
-    .navbar li {
-        width: 75px;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-        text-align: center;
-    }
-    .navbar li:nth-of-type(1) {
-        margin-left: 110px;
-    }
-    ul > li > a:active, ul > li > a:hover {
-        border-bottom: solid 1px #eee;
-    }
-    .navbar-brand {
-        width: 185px;
         text-align:center;
         margin: auto;
     }
