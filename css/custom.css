@@ -174,3 +174,18 @@ a:active > .social-icon {
         margin: auto;
     }
 }
+
+.slide {
+    position: relative;
+}
+.slide:after {
+    content: '';
+    display: block;
+    height: 18px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    background-image: linear-gradient(rgba(255,255,255,0),white);
+    background-color: transparent;
+}
