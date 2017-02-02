@@ -10,7 +10,7 @@ footer > p:after {
     content: "Mon Jan 30 22:47:34 JST 2017";
 }
 
-p.lead, .slide, footer {
+p.lead, .slide, .slideAfterExpanded, footer {
     font-size: 14px;
     font-weight: 200;
     text-align: center;
@@ -188,4 +188,8 @@ a:active > .social-icon {
     background-color: white;
     background-image: linear-gradient(rgba(255,255,255,0),white);
     background-color: transparent;
+}
+
+.slideAfterExpanded {
+    position: relative;
 }
