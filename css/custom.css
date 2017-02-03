@@ -187,21 +187,21 @@ a:active,
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    width: 155px;
-    padding: 0 10px 0 0;
-    border-right: 1px solid #eee;
+    width: 134px;
+    padding: 0 4px 0 0;
 }
 .profile-photo > img {
-    width: 145px;
+    width: 130px;
 }
 
 .profile-social {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-    width: 130px;
-    padding: 10px 0 10px 0px;
+    width: 134px;
+    padding: 10px 0 10px 4px;
     border-top: none;
+    border-left: 1px solid #eee;
 }
 
 .profile-social {
@@ -211,6 +211,9 @@ a:active,
 
 @media (min-width:768px)
 {
+    .profile-photo > img {
+        width: 145px;
+    }
     .profile-photo {
         width: 185px;
         padding: 0 0 10px 0;
@@ -218,6 +221,7 @@ a:active,
     }
     
     .profile-social {
+        width: 130px;
         padding: 10px 0 10px 0;
         border-top: 1px solid #eee;
         border-left: none;
