@@ -10,7 +10,7 @@ footer > p:after {
     content: "Mon Jan 30 22:47:34 JST 2017";
 }
 
-p.lead, .slide, .slideAfterExpanded, footer {
+p.lead, .slide, .slideAfterExpanded, footer, .profile-social {
     font-size: 14px;
     font-weight: 200;
     text-align: center;
@@ -103,12 +103,6 @@ hr {
     }
 }
 
-p.lead img {
-    width: 150px;
-    align: middle;
-    margin-bottom: 20px;
-}
-
 a:link,
 a:visited,
 .navbar-default .navbar-nav > li > a:link,
@@ -119,15 +113,6 @@ a:hover,
 a:active,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: black;
-}
-
-a:link > .social-icon,
-a:visited > .social-icon {
-    color: #ccc;
-}
-a:hover > .social-icon,
-a:active > .social-icon {
     color: black;
 }
 
@@ -192,4 +177,49 @@ a:active > .social-icon {
 
 .slideAfterExpanded {
     position: relative;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-photo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 155px;
+    padding: 0 15px 0 0;
+    border-right: 1px solid #eee;
+}
+.profile-photo > img {
+    width: 145px;
+}
+
+.profile-social {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 130px;
+    padding: 10px 0 10px 5px;
+    border-top: none;
+}
+
+.profile-social {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@media (min-width:768px)
+{
+    .profile-photo {
+        width: 185px;
+        padding: 0 0 10px 0;
+        border-right: none;
+    }
+    
+    .profile-social {
+        padding: 10px 0 10px 0;
+        border-top: 1px solid #eee;
+        border-left: none;
+    }
 }
