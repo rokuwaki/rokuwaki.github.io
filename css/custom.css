@@ -73,6 +73,10 @@ hr {
     }
 }
 
+#navbar > ul > li {
+    text-align: center;
+    width: 65px;
+}
 
 @media (min-width:768px)
 {
@@ -103,24 +107,11 @@ hr {
     }
 }
 
-a:link,
-a:visited,
-.navbar-default .navbar-nav > li > a:link,
-.navbar-default .navbar-nav > li > a:visited {
-    color: #777;
-}
-a:hover,
-a:active,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: black;
-}
-
 .navbar-default {
-    background-color: white;
     border-color: white;
     font-size: 14px;
     font-weight: 200;
+    background-color: white;
 }
 
 .navbar-default .navbar-brand {
@@ -128,11 +119,17 @@ a:active,
     font-weight: 200;
 }
 
+a:link, a:visited,
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited,
 .navbar-default .navbar-brand:link,
 .navbar-default .navbar-brand:visited {
     color: #777;
 }
 
+a:hover, a:active,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: black;
@@ -141,6 +138,7 @@ a:active,
 #navbar > ul > li > a:active, #navbar > ul > li > a:hover {
     border-bottom: solid 1px #eee;
 }
+
 @media (max-width:767px) 
 {
     .nav li {
@@ -157,6 +155,9 @@ a:active,
         top: 0;
         text-align:center;
         margin: auto;
+    }
+    #navbar > ul {
+        height: 34px;
     }
 }
 
