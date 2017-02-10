@@ -12,22 +12,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 14px;
+    transition-duration: 0.3s;
 }
 h1 {
     font-size: 28px;
     font-weight: 200;
+    transition-duration: 0.3s;
 }
-#intro {
+#cover {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 55px;
     border-bottom: 1px solid #eee;
 }
-#intro > ol {
+#cover > ol {
     padding-left: 0;
     padding-right: 0;
 }
-#intro > ol > li {
+#cover > ol > li {
     display: inline-block;
     text-align: center;
     margin: 0 5px 0 5px;
@@ -49,14 +51,12 @@ h1 {
     h1 {
         font-size: 36px;
     }
-    #intro {
-        padding-top: 140px;
-        padding-bottom: 160px;
+    #cover {
+        padding-top: 160px;
+        padding-bottom: 180px;
     }
 }
 /* */
-
-
 
 /* ----- below: fixed for all widths ----- */
 .sub-container {
@@ -73,13 +73,24 @@ a:hover, a:active {
 
 #footer {
     border-top: 1px solid #eee;
+    padding-top: 10px;
     text-align: center;
 }
 #footer .fa-2x {
-    padding: 10px 0 5px 0;
+    padding-top: 10px;
 }
 
 .small-after-h1 {
     margin-top: -20px;
     margin-bottom: 30px;
 }
+
+/* fadein animation */
+body {
+    animation: fadeIn 1s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+/* */
