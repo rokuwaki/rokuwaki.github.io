@@ -3,7 +3,7 @@ body {
     font-family: 'Noto Sans Japanese', sans-serif;
     font-weight: 200;
     font-size: 14px;
-    color: #28282E;
+    color: #010101;
 }
 
 /* ----- below: variable for media widths */
@@ -64,12 +64,12 @@ h1 {
 }
 
 a:link, a:visited {
-            color: #777;
-            text-decoration: none;
-        }
+    color: #777777;
+    text-decoration: none;
+}
 a:hover, a:active {
-             color: #28282E;
-         }
+    color: #010101;
+}
 
 #footer {
     border-top: 1px solid #eee;
