@@ -5,29 +5,23 @@ body {
     font-size: 14px;
     color: #010101;
 }
-
 /* ----- below: variable for media widths */
 .container {
     padding: 0 20px 20px 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
     font-size: 14px;
-    transition-duration: 0.3s;
 }
 h1 {
     font-size: 28px;
     font-weight: 200;
-    transition-duration: 0.3s;
 }
 #cover {
     text-align: center;
-    padding-top: 35px;
-    padding-bottom: 55px;
+    padding: 35px 0 55px 0;
     border-bottom: 1px solid #eee;
 }
 #cover > ol {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 #cover > ol > li {
     display: inline-block;
@@ -52,17 +46,17 @@ h1 {
         font-size: 36px;
     }
     #cover {
-        padding-top: 160px;
-        padding-bottom: 180px;
+        padding: 160px 0 180px 0;
     }
 }
 /* */
-
-/* ----- below: fixed for all widths ----- */
+/* ----- below: fixed for media widths ----- */
 .sub-container {
     margin-bottom: 50px;
 }
-
+.small-after-h1 {
+    margin: -20px 0 30px 0;
+}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -70,7 +64,6 @@ a:link, a:visited {
 a:hover, a:active {
     color: #010101;
 }
-
 #footer {
     border-top: 1px solid #eee;
     padding-top: 10px;
@@ -79,18 +72,3 @@ a:hover, a:active {
 #footer .fa-2x {
     padding-top: 10px;
 }
-
-.small-after-h1 {
-    margin-top: -20px;
-    margin-bottom: 30px;
-}
-
-/* fadein animation */
-body {
-    animation: fadeIn 1s ease 0s 1 normal;
-}
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-/* */
