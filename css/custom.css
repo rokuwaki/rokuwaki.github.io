@@ -30,9 +30,8 @@ h1 {
 }
 #footer ol {
     display: inline;
-    margin: 0 0 0 0;
-    padding: 0;
     list-style: none;
+    margin-top: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
@@ -41,12 +40,6 @@ h1 {
     }
     h1 {
         font-size: 32px;
-    }
-    #footer ol {
-        display: block;
-    }
-    #footer ol li {
-        display: inline-block;
     }
 }
 @media (min-width: 1200px) {
@@ -83,7 +76,4 @@ a:hover, a:active {
     border-top: 1px solid #eee;
     padding-top: 10px;
     text-align: center;
-}
-#footer .fa-2x {
-    padding-top: 5px;
 }
