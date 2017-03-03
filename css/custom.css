@@ -28,10 +28,19 @@ h1 {
     text-align: center;
     margin: 0 5px 0 5px;
 }
+#footer {
+    border-top: 1px solid #eee;
+    text-align: center;
+}
 #footer ol {
-    display: inline;
+    width: 135px;
     list-style: none;
-    margin-top: 10px;
+    text-align: left;
+    padding: 0;
+    margin: 5px auto 10px auto;
+}
+#footer li {
+    padding: 5px 0 5px 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
@@ -40,6 +49,9 @@ h1 {
     }
     h1 {
         font-size: 32px;
+    }
+    #footer ol {
+        width: 155px;
     }
 }
 @media (min-width: 1200px) {
@@ -55,8 +67,12 @@ h1 {
     }
     #footer ol {
         display: block;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        text-align: center;
+        padding: 0;
     }
-    #footer ol li {
+    #footer li {
         display: inline-block;
     }
 }
@@ -71,9 +87,4 @@ a:link, a:visited {
 }
 a:hover, a:active {
     color: #010101;
-}
-#footer {
-    border-top: 1px solid #eee;
-    padding-top: 10px;
-    text-align: center;
 }
