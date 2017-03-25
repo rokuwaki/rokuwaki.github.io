@@ -5,6 +5,16 @@ body {
     font-size: 14px;
     color: #010101;
 }
+.sub-container {
+    margin-bottom: 50px;
+}
+a:link, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #010101;
+}
 /* ----- below: variable for media widths */
 .container {
     padding: 0 20px 20px 20px;
@@ -86,14 +96,35 @@ h1 {
     }
 }
 /* */
-/* ----- below: fixed for media widths ----- */
-.sub-container {
-    margin-bottom: 50px;
+/* ----- Styles for blog posts ----- */
+#blog-list ol {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 10px auto 10px auto;
 }
-a:link, a:visited {
-    color: #777777;
-    text-decoration: none;
+#blog-date {
+    color: #bbb;
 }
-a:hover, a:active {
-    color: #010101;
+@media (min-width: 768px) {
+    #blog-list ol {
+        display: block;
+        margin: 10px auto 10px auto;
+        padding: 0;
+    }
+    #blog-list li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #blog-title {
+        text-align: left;
+        width: 69%;
+    }
+    #blog-date {
+        text-align: right;
+        width: 30%;
+    }
+}
+#blog-footer {
+    text-align: center;
 }
