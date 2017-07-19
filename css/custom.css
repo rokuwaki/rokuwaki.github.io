@@ -38,6 +38,10 @@ h1 {
     text-align: center;
     margin: 0 5px 0 5px;
 }
+#research-header {
+    padding: 55px 0 55px 0;
+    border-bottom: 1px solid #eee;
+}
 #footer {
     border-top: 1px solid #eee;
     text-align: center;
@@ -51,10 +55,12 @@ h1 {
 #footer li {
     padding: 5px 0 0 0;
 }
-#submitted > li {
+#submitted {
+    padding-top: 20px;    
     color: #777777;
+}
+#submitted > li {
     list-style-type: lower-roman;
-    padding-top: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
