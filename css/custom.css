@@ -11,6 +11,12 @@ body {
 .sub-container > li {
     list-style-type: none;
 }
+#intro {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -20,10 +26,10 @@ a:hover, a:active {
 }
 #published > li {
     list-style-type: none;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 #submitted {
-    padding-top: 40px;    
+    padding-top: 40px;
     color: #777777;
 }
 #submitted > li {
@@ -52,10 +58,6 @@ h1 {
     display: inline-block;
     text-align: center;
     margin: 0 5px 0 5px;
-}
-#research-header {
-    padding: 20px 0 0 0;
-    border-bottom: 1px solid #eee;
 }
 #footer {
     border-top: 1px solid #eee;
