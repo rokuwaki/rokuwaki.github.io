@@ -29,7 +29,7 @@ a:hover, a:active {
     padding-bottom: 20px;
 }
 #submitted {
-    padding-top: 40px;
+    padding-bottom: 20px;
     color: #777777;
 }
 #submitted > li {
