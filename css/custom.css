@@ -4,6 +4,7 @@ body {
     font-weight: 200;
     font-size: 14px;
     color: #010101;
+    background-color: #fdf6e3;
 }
 .sub-container {
     margin-bottom: 50px;
@@ -49,7 +50,7 @@ h1 {
 #cover {
     text-align: center;
     padding: 35px 0 55px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee8d5;
 }
 #cover > ol {
     padding: 0;
@@ -60,7 +61,7 @@ h1 {
     margin: 0 5px 0 5px;
 }
 #footer {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eee8d5;
     text-align: center;
 }
 #footer ol {
