@@ -11,12 +11,6 @@ body {
 .sub-container > li {
     list-style-type: none;
 }
-#intro {
-    text-align: center;
-}
-h1 {
-    text-align: center;
-}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -94,7 +88,7 @@ h1 {
 }
 @media (min-width: 1200px) {
     .container {
-        width: 1100px;
+        width: 968px;
         font-size: 18px;
     }
     h1 {
@@ -114,37 +108,4 @@ h1 {
         display: inline-block;
         padding: 5px 5px 5px 5px;
     }
-}
-/* */
-/* ----- Styles for blog posts ----- */
-#blog-list ol {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 10px auto 10px auto;
-}
-#blog-date {
-    color: #bbb;
-}
-@media (min-width: 768px) {
-    #blog-list ol {
-        display: block;
-        margin: 10px auto 10px auto;
-        padding: 0;
-    }
-    #blog-list li {
-        display: inline-block;
-        vertical-align: middle;
-    }
-    #blog-title {
-        text-align: left;
-        width: 69%;
-    }
-    #blog-date {
-        text-align: right;
-        width: 30%;
-    }
-}
-#blog-footer {
-    text-align: center;
 }
