@@ -30,6 +30,11 @@ a:hover, a:active {
     list-style-type: none;
     padding-bottom: 20px;
 }
+#footer {
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding-top: 10px;
+}
 /* ----- below: variable for media widths */
 .container {
     padding: 0 20px 20px 20px;
@@ -40,32 +45,12 @@ h1 {
     font-size: 28px;
     font-weight: 200;
 }
-#cover {
+#icons {
     text-align: center;
-    padding: 35px 0 55px 0;
+    padding-bottom: 30px;
     border-bottom: 1px solid #eee;
 }
-#cover > ol {
-    padding: 0;
-}
-#cover > ol > li {
-    display: inline-block;
-    text-align: center;
-    margin: 0 5px 0 5px;
-}
-#footer {
-    border-top: 1px solid #eee;
-    text-align: center;
-}
-#footer ol {
-    width: 135px;
-    list-style: none;
-    padding: 0;
-    margin: 5px auto 5px auto;
-}
-#footer li {
-    padding: 5px 0 0 0;
-}
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
         width: 668px;
@@ -74,16 +59,10 @@ h1 {
     h1 {
         font-size: 32px;
     }
-    #footer ol {
-        display: block;
-        width: 100%;
-        margin: 10px 0 5px 0;
-        text-align: center;
-        padding: 0;
-    }
-    #footer li {
-        display: inline-block;
-        padding: 5px 5px 5px 5px;
+    #icons {
+        text-align: right;
+        margin-top: -3.8em;
+        margin-bottom: 0.5em;
     }
 }
 @media (min-width: 1200px) {
@@ -94,18 +73,9 @@ h1 {
     h1 {
         font-size: 36px;
     }
-    #cover {
-        padding: 160px 0 180px 0;
-    }
-    #footer ol {
-        display: block;
-        width: 100%;
-        margin: 10px 0 5px 0;
-        text-align: center;
-        padding: 0;
-    }
-    #footer li {
-        display: inline-block;
-        padding: 5px 5px 5px 5px;
+    #icons {
+        text-align: right;
+        margin-top: -3.8em;
+        margin-bottom: 0.5em;
     }
 }
