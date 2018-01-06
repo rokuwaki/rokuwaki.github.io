@@ -11,23 +11,6 @@ body {
 .sub-container > li {
     list-style-type: none;
 }
-a {
-    display: inline-block;
-}
-a:hover {
-    -webkit-animation: zoom .3s;
-    animation: zoom .3s;
-}
-@-webkit-keyframes zoom {
-    50% {
-        -webkit-transform: scale(1.05);
-    }
-}
-@keyframes zoom {
-    50% {
-        transform: scale(1.05);
-    }
-}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -63,11 +46,19 @@ h1 {
     font-weight: 200;
 }
 #icons {
-    text-align: center;
+    text-align: left;
     padding-bottom: 30px;
+    padding-left: 3px;
     border-bottom: 1px solid #eee;
+    margin-bottom: 0.5em;
 }
-
+@media (min-width: 468px) {
+    #icons {
+        text-align: right;
+        margin-top: -3.8em;
+        margin-bottom: 0.5em;
+    }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
         width: 668px;
@@ -75,11 +66,6 @@ h1 {
     }
     h1 {
         font-size: 32px;
-    }
-    #icons {
-        text-align: right;
-        margin-top: -3.8em;
-        margin-bottom: 0.5em;
     }
 }
 @media (min-width: 1200px) {
