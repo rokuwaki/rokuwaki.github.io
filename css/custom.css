@@ -11,6 +11,23 @@ body {
 .sub-container > li {
     list-style-type: none;
 }
+a {
+    display: inline-block;
+}
+a:hover {
+    -webkit-animation: zoom .3s;
+    animation: zoom .3s;
+}
+@-webkit-keyframes zoom {
+    50% {
+        -webkit-transform: scale(1.05);
+    }
+}
+@keyframes zoom {
+    50% {
+        transform: scale(1.05);
+    }
+}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
