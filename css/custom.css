@@ -8,9 +8,6 @@ body {
 .sub-container {
     margin-bottom: 50px;
 }
-.sub-container > li {
-    list-style-type: none;
-}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -47,6 +44,7 @@ h1 {
 }
 #icons {
     text-align: left;
+    font-weight: 400;
     padding-bottom: 30px;
     padding-left: 3px;
     border-bottom: 1px solid #eee;
