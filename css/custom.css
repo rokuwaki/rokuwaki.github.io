@@ -15,18 +15,6 @@ a:link, a:visited {
 a:hover, a:active {
     color: #090601;
 }
-#published > li {
-    list-style-type: none;
-    padding-bottom: 20px;
-}
-#submitted {
-    padding-bottom: 20px;
-    color: #777777;
-}
-#submitted > li {
-    list-style-type: none;
-    padding-bottom: 20px;
-}
 #footer {
     border-top: 1px solid #eee;
     text-align: center;
@@ -45,7 +33,7 @@ h1 {
 #icons {
     text-align: left;
     font-weight: 400;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-left: 3px;
     border-bottom: 1px solid #eee;
     margin-bottom: 0.5em;
@@ -54,7 +42,6 @@ h1 {
     #icons {
         text-align: right;
         margin-top: -3.8em;
-        margin-bottom: 0.5em;
     }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -73,10 +60,5 @@ h1 {
     }
     h1 {
         font-size: 36px;
-    }
-    #icons {
-        text-align: right;
-        margin-top: -3.8em;
-        margin-bottom: 0.5em;
     }
 }
