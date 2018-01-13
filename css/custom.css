@@ -8,6 +8,9 @@ body {
 .sub-container {
     margin-bottom: 50px;
 }
+.submitted {
+    color: #777777;
+}
 a:link, a:visited {
     color: #777777;
     text-decoration: none;
@@ -15,10 +18,11 @@ a:link, a:visited {
 a:hover, a:active {
     color: #090601;
 }
+b {
+    font-weight: 300;
+}
 #footer {
-    border-top: 1px solid #eee;
     text-align: center;
-    padding-top: 10px;
 }
 /* ----- below: variable for media widths */
 .container {
@@ -32,13 +36,11 @@ h1 {
 }
 #icons {
     text-align: left;
-    font-weight: 400;
-    padding-bottom: 20px;
-    padding-left: 3px;
+    padding: 0 0 20px 3px;
     border-bottom: 1px solid #eee;
     margin-bottom: 0.5em;
 }
-@media (min-width: 468px) {
+@media (min-width: 478px) {
     #icons {
         text-align: right;
         margin-top: -3.8em;
