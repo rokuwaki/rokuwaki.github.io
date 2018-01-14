@@ -1,12 +1,12 @@
 body {
     -webkit-text-size-adjust: 100%;
     font-family: 'Noto Sans Japanese', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 14px;
     color: #090601;
 }
 .sub-container {
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
 }
 .submitted {
     color: #777777;
@@ -19,7 +19,7 @@ a:hover, a:active {
     color: #090601;
 }
 b {
-    font-weight: 300;
+    font-weight: 100;
 }
 #footer {
     text-align: center;
@@ -32,7 +32,7 @@ b {
 }
 h1 {
     font-size: 28px;
-    font-weight: 200;
+    font-weight: 100;
 }
 #icons {
     text-align: left;
@@ -45,6 +45,10 @@ h1 {
         text-align: right;
         margin-top: -3.8em;
     }
+    .sub-container {
+        margin: 50px 0 50px 0;
+    }
+    
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .container {
