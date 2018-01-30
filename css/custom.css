@@ -37,7 +37,7 @@ h1 {
     font-weight: 400;
 }
 #icons {
-    text-align: left;
+    text-align: center;
     padding: 0 0 10px 3px;
 }
 @media (min-width: 478px) {
