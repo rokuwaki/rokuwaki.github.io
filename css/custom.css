@@ -30,7 +30,7 @@ a:hover, a:active {
 .container {
     padding: 0 20px 20px 20px;
     margin: 0 auto 0 auto;
-    font-size: 15.6px;
+    font-size: 14px;
 }
 h1 {
     font-size: 28px;
@@ -46,7 +46,7 @@ h1 {
     }  
     #icons {
         text-align: right;
-        margin: -3.5em 0 0 0;
+        margin: -3.7em 0 0 0;
     }
 }
 @media (min-width: 788px) {
@@ -56,6 +56,9 @@ h1 {
     }
     h1 {
         font-size: 36px;
+    }
+    #icons {
+        margin: -3.5em 0 0 0;
     }
 }
 @media (min-width: 1200px) {
