@@ -1,7 +1,7 @@
 body {
     -webkit-text-size-adjust: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     color: #4d4c4b;
 }
@@ -30,40 +30,36 @@ a:hover, a:active {
 .container {
     padding: 0 20px 20px 20px;
     margin: 0 auto 0 auto;
-    font-size: 14px;
+    font-size: 15.6px;
 }
 h1 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
 }
 #icons {
     text-align: center;
     padding: 0 0 10px 3px;
 }
-@media (min-width: 478px) {
+@media (min-width: 500px) {
+    .sub-container {
+        margin: 0px 0 50px 0;
+    }  
     #icons {
         text-align: right;
-        margin: -3.8em 0 0 0;
+        margin: -3.5em 0 0 0;
     }
-    .sub-container {
-        margin: 50px 0 50px 0;
-    }  
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 788px) {
     .container {
-        width: 668px;
-        font-size: 16px;
+        padding: 0 105px 20px 105px;
+        font-size: 20px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
 }
 @media (min-width: 1200px) {
     .container {
         width: 968px;
-        font-size: 18px;
-    }
-    h1 {
-        font-size: 36px;
     }
 }
