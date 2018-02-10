@@ -6,11 +6,11 @@ body {
     color: #555;
 }
 .sub-container {
-    padding: 0 0 50px 0;
+    padding: 0 0 20px 0;
 }
 .submitted {
     color: #999;
-    padding: 0 0 50px 0;
+    padding: 0 0 40px 0;
 }
 a:link, a:visited {
     color: #999;
@@ -60,6 +60,9 @@ h1 {
     .container {
         width: 725px;
         padding: 30px 20px 20px 20px;
+    }
+    .sub-container {
+        padding: 0 0 50px 0;
     }
     #nav {
         text-align: right;
