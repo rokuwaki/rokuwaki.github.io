@@ -22,6 +22,9 @@ a:link, a:visited {
 a:hover, a:active {
     color: #555;
 }
+b {
+    font-weight: 400;
+}
 #wave {
     height: 20px;
     width: 100%;
@@ -44,6 +47,21 @@ h1 {
     text-align: left;
     padding: 0 0 20px 3px;
 }
+.graphicabstract {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+    margin: 10px auto 30px auto;
+    display: block;
+}
+img {
+    width: 100%;
+}
+.graphicabstractcaption {
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    font-size: 75%;
+}
 @media (min-width: 380px) {
     #nav {
         text-align: right;
@@ -53,22 +71,25 @@ h1 {
 @media (min-width: 580px) {
     .container {
         width: 525px;  /* min-width - 55px */
-        font-size: 20px;
+        font-size: 16px;
+        padding: 30px 20px 20px 20px;
     }
     h1 {
-        font-size: 36px;
+        font-size: 32px;
+    }
+    #nav {
+        text-align: right;
+        margin: -3.2em 0 0 0;
     }
 }
 @media (min-width: 780px) {
     .container {
         width: 725px;
-        padding: 30px 20px 20px 20px;
     }
     .sub-container {
         padding: 0 0 50px 0;
     }
-    #nav {
-        text-align: right;
-        margin: -3.1em 0 0 0;
+    .graphicabstract {
+        width: 75%;
     }
 }
