@@ -4,6 +4,7 @@ body {
     font-weight: 300;
     font-size: 14px;
     color: #000;
+    line-height: 1.4;
 }
 .sub-container {
     padding: 0 0 20px 0;
@@ -66,21 +67,20 @@ img {
 @media (min-width: 380px) {
     #nav {
         text-align: right;
-        margin: -3.3em 0 0 0;
+        margin: -3.1em 0 0 0;
     }
 }
 @media (min-width: 580px) {
     .container {
         width: 525px;  /* min-width - 55px */
-        font-size: 16px;
+        font-size: 24px;
         padding: 30px 20px 20px 20px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
     #nav {
-        text-align: right;
-        margin: -3.2em 0 0 0;
+        margin: -2.5em 0 0 0;
     }
 }
 @media (min-width: 780px) {
