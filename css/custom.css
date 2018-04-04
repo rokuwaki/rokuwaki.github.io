@@ -9,9 +9,9 @@ body {
 .sub-container {
     padding: 0 0 20px 0;
 }
-#top a  {
+/* #top-title  {
     color: #000;
-}
+} */
 .submitted {
     color: #999;
     padding: 0 0 40px 0;
@@ -35,6 +35,14 @@ b {
     background-position: left;
     opacity: 0.1;
 }
+hr.fornav {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(153, 153, 153, 0.2);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+    border-radius: 2px;
+}
+
 /* ----- below: variable for media widths */
 .container {
     padding: 0 20px 20px 20px;
