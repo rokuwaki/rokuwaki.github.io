@@ -9,15 +9,15 @@ body {
 .sub-container {
     padding: 0 0 20px 0;
 }
-/* #top-title  {
-    color: #000;
-} */
+.top-title  {
+    color: #777;
+}
 .submitted {
-    color: #999;
+    color: #777;
     padding: 0 0 40px 0;
 }
 a:link, a:visited {
-    color: #999;
+    color: #777;
     text-decoration: none;
 }
 a:hover, a:active {
@@ -42,7 +42,9 @@ hr.fornav {
     border-bottom: 1px solid rgba(153, 153, 153, 0.2);
     border-radius: 2px;
 }
-
+.fa, .ai {
+    color: #777;
+}
 /* ----- below: variable for media widths */
 .container {
     padding: 0 20px 20px 20px;
