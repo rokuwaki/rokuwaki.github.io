@@ -10,7 +10,7 @@ body {
     padding: 0 0 20px 0;
 }
 .top-title  {
-    color: #777;
+    color: #000;
 }
 .submitted {
     color: #777;
@@ -28,12 +28,12 @@ b {
     font-weight: 400;
 }
 #wave {
-    height: 20px;
+    height: 0px;
     width: 100%;
-    background-image: url("../image/wave.png");
+    background-image: url("../image/wave_top.png");
     background-size: cover;
     background-position: left;
-    opacity: 0.1;
+    opacity: 0.5;
 }
 hr.fornav {
     border: 0;
@@ -44,9 +44,6 @@ hr.fornav {
 }
 .fa, .ai {
     color: #777;
-}
-#about {
-    padding-top: 20px;
 }
 #footer {
     text-align: center;
@@ -60,9 +57,9 @@ hr.fornav {
     font-size: 16px;
 }
 h1 {
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 300;
-    color: #777
+    color: #000;
 }
 #nav {
     text-align: left;
@@ -85,11 +82,11 @@ img {
 @media (min-width: 380px) {
     #nav {
         text-align: right;
-        margin: -2.9em 0 0 0;
+        margin: -2.1em 0 0 0;
         padding: 0 0 15px 3px;
     }
-    #about {
-        padding-top: 50px;
+    #wave {
+        height: 100px;
     }
 }
 @media (min-width: 580px) {
@@ -99,7 +96,7 @@ img {
         padding: 30px 20px 20px 20px;
     }
     h1 {
-        font-size: 36px;
+        font-size: 20px;
     }
 }
 @media (min-width: 780px) {
