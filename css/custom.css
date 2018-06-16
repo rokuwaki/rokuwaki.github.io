@@ -1,3 +1,6 @@
+html {
+    overflow: auto;
+}
 body {
     -webkit-text-size-adjust: 100%;
     font-family: 'Noto Sans JP', 'Lato', sans-serif;
@@ -5,9 +8,11 @@ body {
     font-size: 14px;
     color: #000;
     line-height: 1.4;
+    overflow: hidden;
+    position: relative;
 }
 .sub-container {
-    padding: 0 0 20px 0;
+    padding: 0 0 40px 0;
 }
 .top-title  {
     color: #000;
@@ -38,9 +43,10 @@ b {
 hr.fornav {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(153, 153, 153, 0.2);
-    border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+    border-top: 1px solid rgba(153, 153, 153, 0.1);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.1);
     border-radius: 2px;
+    margin-top: -0.5em;
 }
 .fa, .ai {
     color: #777;
