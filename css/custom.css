@@ -3,7 +3,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
     line-height: 1.7;
-    color: #000;
+    color: #333333;
 }
 .container {
     margin: 30px auto 30px auto;
@@ -15,7 +15,7 @@ body {
 }
 small {
     font-size: 60%;
-    color: #777;
+    color: #777777;
 }
 @media (min-width: 580px) {
     .container {
@@ -37,20 +37,20 @@ small {
     }
 }
 .submitted, .fas, .fab, .far, .fal, .ai {
-    color: #777;
+    color: #777777;
 }
 a:link, a:visited {
-    color: #777;
+    color: #777777;
     text-decoration: none;
 }
 a:hover, a:active {
-    color: #000;
+    color: #333333;
     text-decoration: none;
     border-bottom: 1px #777 solid;
 }
 #inter {
     text-align: center;
-    color: #777;
+    color: #777777;
 }
 .pubinfo {
     padding-left: 1.5em;
