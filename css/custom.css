@@ -11,7 +11,7 @@ body {
     font-size: 16px;
 }
 .sub-container {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 40px 0;
 }
 small {
     font-size: 60%;
@@ -33,7 +33,7 @@ small {
         width: 725px;  /* min-width - 55px */
     }
     .sub-container {
-        margin: 30px 0 30px 0;
+        margin: 30px 0 50px 0;
     }
 }
 .submitted, .fas, .fab, .far, .fal, .ai {
@@ -48,9 +48,10 @@ a:hover, a:active {
     text-decoration: none;
     border-bottom: 1px #777 solid;
 }
-#inter {
+#footer {
     text-align: center;
     color: #777777;
+    margin: 50px 0 70px 0;
 }
 .pubinfo {
     padding-left: 1.5em;
