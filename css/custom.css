@@ -13,8 +13,7 @@ body {
 .sub-container {
     margin: 20px 0 40px 0;
 }
-small {
-    font-size: 60%;
+.pos {
     color: #777777;
 }
 @media (min-width: 580px) {
@@ -22,9 +21,6 @@ small {
         width: 525px;  /* min-width - 55px */
         margin: 50px auto 50px auto;
         padding: 0 20px 0 20px;
-        font-size: 20px;
-    }
-    small {
         font-size: 20px;
     }
 }
