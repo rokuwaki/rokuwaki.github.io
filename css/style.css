@@ -1,0 +1,72 @@
+body {
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    margin: 0;
+}
+.container {
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    width: 1023px;
+    font-size: 16px;
+}
+.sub-container {
+    margin: 0 30px 50px 30px;
+    padding: 0;
+}
+#about {
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    width: 250px;
+}
+#pub {
+    overflow: hidden;
+    width: auto;
+    padding-top: 30px;
+}
+.contact {
+    padding-left: 6.8em;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+    }
+    .sub-container {
+        margin: 46px 30px 30px 30px;
+    }
+    #about {
+        float: none;
+        width: auto;
+        position: relative;
+        top: 0;
+    }
+    .contact {
+        padding-left: 1.5em;
+    }
+}
+.submitted, .fas, .fab, .far, .fal, .ai, .pos {
+    color: #777777;
+}
+a:link, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 1px #777 solid;
+}
+.pubinfo {
+    padding-left: 1.5em;
+    margin-bottom: 3.5em;
+}
