@@ -12,25 +12,25 @@ a:link, a:visited {
     color: var(--black);
 }
 p {
-    padding: 0 0 0 2rem;
-    text-indent: -2rem;
+    padding: 0 0 0 1.5rem;
+    text-indent: -1.5rem;
 }
 .far, .fas, .fab, .ai {
     padding: 0 0 0 0;
     text-indent: 0;
 }
 .contact {
-    padding: 0 0 0 2rem;
+    padding: 0 0 0 1.5rem;
 }
 .pubinfo {
-    margin: 0 0 3rem 0;
-    padding: 0 0 0 2rem;
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
 }
 .container {
     width: 100%;
 }
 .sub-container {
-    padding: 2rem 2rem 0 2rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 @media (min-width: 576px) {
     .container {
@@ -43,15 +43,12 @@ p {
         max-width: 720px;
     }
 }
-@media (min-width: 992px) and (min-height: 256px) {
+@media (min-width: 992px) and (min-height: 350px) {
     .container {
         max-width: 960px;
     }
-    .contact {
-        padding: 0 0 0 5.8rem;
-    }
     #nav {
-        width: 13.5rem;
+        width: 12rem;
         top: 0;
         float: left;
         position: -webkit-sticky;
@@ -66,17 +63,4 @@ p {
     .container {
         max-width: 1140px;
     }
-}
-.box label {
-    display: inline;
-    text-decoration: underline;
-    cursor: pointer;
-} 
-.box input[type="checkbox"].on-off,
-.box input[type="checkbox"].on-off +div{
-    display: none;
-}
-.box input[type="checkbox"].on-off:checked +div{
-    display: block;
-    margin: -0.9rem 0 0 1.5rem;
 }
