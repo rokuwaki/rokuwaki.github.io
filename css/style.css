@@ -8,28 +8,16 @@ body {
     -webkit-text-size-adjust: 100%;
     color: var(--black);
 }
-a:link, a:visited {
-    color: var(--black);
-}
-p {
-    padding: 0 0 0 1.5rem;
-    text-indent: -1.5rem;
-}
-.far, .fas, .fab, .ai {
-    padding: 0 0 0 0;
-    text-indent: 0;
-}
-.contact {
-    padding: 0 0 0 1.5rem;
-}
-.pubinfo {
-    margin: 0 0 2rem 0;
-    padding: 0 0 0 1.5rem;
-}
 .container {
     width: 100%;
 }
-.sub-container {
+.name {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.nav {
+    padding: 0 1.5rem 1.5rem 3rem;
+}
+.pub {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 @media (min-width: 576px) {
@@ -47,14 +35,23 @@ p {
     .container {
         max-width: 960px;
     }
-    #nav {
-        width: 12rem;
-        top: 0;
+    .name {
+        width: auto;
         float: left;
+        top: 0;
         position: -webkit-sticky;
         position: sticky;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     }
-    #pub {
+    .nav {
+        width: auto;
+        float: left;
+        top: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+    .pub {
         width: auto;
         overflow: hidden;
     }
@@ -63,4 +60,22 @@ p {
     .container {
         max-width: 1140px;
     }
+}
+a:link, a:visited {
+    color: var(--black);
+}
+p {
+    padding: 0 0 0 1.5rem;
+    text-indent: -1.5rem;
+}
+.far, .fas, .fab, .ai {
+    padding: 0 0 0 0;
+    text-indent: 0;
+}
+.pubinfo {
+    padding: 0 0 0 1.5rem;
+}
+.pubinfo::after {
+    content: "\A";
+    white-space: pre;
 }
