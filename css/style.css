@@ -8,6 +8,24 @@ body {
     -webkit-text-size-adjust: 100%;
     color: var(--black);
 }
+a:link, a:visited {
+    color: var(--black);
+}
+p {
+    padding: 0 0 0 1.5rem;
+    text-indent: -1.5rem;
+}
+.far, .fas, .fab, .ai {
+    padding: 0 0 0 0;
+    text-indent: 0;
+}
+.pubinfo {
+    padding: 0 0 0 1.5rem;
+}
+.pubinfo::after {
+    content: "\A";
+    white-space: pre;
+}
 .container {
     width: 100%;
 }
@@ -29,9 +47,14 @@ body {
         margin: 0 auto 0 auto;
     }
 }
-@media (min-width: 768px) and (min-height: 350px) {
+@media (min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+}
+@media (min-width: 992px) and (min-height: 350px) {
+    .container {
+        max-width: 960px;
     }
     .name, .nav {
         width: auto;
@@ -46,31 +69,8 @@ body {
         overflow: hidden;
     }
 }
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
-}
-a:link, a:visited {
-    color: var(--black);
-}
-p {
-    padding: 0 0 0 1.5rem;
-    text-indent: -1.5rem;
-}
-.far, .fas, .fab, .ai {
-    padding: 0 0 0 0;
-    text-indent: 0;
-}
-.pubinfo {
-    padding: 0 0 0 1.5rem;
-}
-.pubinfo::after {
-    content: "\A";
-    white-space: pre;
 }
