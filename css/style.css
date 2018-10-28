@@ -43,7 +43,8 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 0 1rem 0 1rem;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .cover {
     width: auto;
@@ -53,6 +54,11 @@ a:link, a:visited {
     .container {
         max-width: 576px;
         margin: 0 auto 0 auto;
+    }
+    .cover {
+        display: grid;
+        grid-gap: 0.9rem;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (min-width: 768px) {
