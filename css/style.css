@@ -45,10 +45,12 @@ a:link, a:visited {
     min-height: 100vh;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    font-weight: 300;
 }
 .cover {
     width: auto;
     text-align: center;
+    line-height: 2;
 }
 @media (min-width: 576px) {
     .container {
@@ -57,8 +59,28 @@ a:link, a:visited {
     }
     .cover {
         display: grid;
-        grid-gap: 0.9rem;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cover0 {
+        grid-column: 1 / 2;
+    }
+    .cover1 {
+        grid-column: 2 / 3;
+    }
+    .cover2 {
+        grid-column: 3 / 4;
+    }
+    .cover0 a, .cover1 a, .cover2 a {
+        padding: 2rem 2rem 2rem 2rem;
+        text-decoration: none;
+        border-radius: 5rem;
+        transition: background-color 0.05s;
+    }
+    .cover0 a:hover, .cover1 a:hover, .cover2 a:hover {
+        border-bottom: none;
+        border-radius: 2rem;
+        background: rgba(0,0,0,0.02);
+        transition: background-color 0.3s;
     }
 }
 @media (min-width: 768px) {
