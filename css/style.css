@@ -34,6 +34,12 @@ a:link, a:visited {
     content: "\A";
     white-space: pre;
 }
+.news {
+    color: #7a7a7a;
+}
+.news a {
+    color: #7a7a7a;
+}
 @media (min-width: 576px) {
     .container {
         max-width: 576px;
