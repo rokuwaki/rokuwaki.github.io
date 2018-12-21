@@ -1,19 +1,28 @@
 :root {
-    --black: #000000;
+    --black: #222;
 }
 body {
     margin: 0 0 0 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 0.85rem;
+    font-weight: 400;
     -webkit-text-size-adjust: 100%;
+    color: var(--black);
+}
+a:link, a:visited {
     color: var(--black);
 }
 p {
     padding: 0 0 0 2rem;
     text-indent: -2rem;
 }
+#updates p {
+    padding: 0 0 0 5.5rem;
+    text-indent: -5.5rem;
+}
 h1 {
     font-size: 1.105rem;
+    font-weight: 400;
 }
 h1 a {
     text-decoration: none;
@@ -21,8 +30,17 @@ h1 a {
 small {
     font-size: 0.595rem;
 }
-a:link, a:visited {
-    color: var(--black);
+.links {
+    padding: 0.1rem 0 0 0;
+}
+.pastupdates a {
+    color: #888;
+    text-decoration: none;
+    padding: 0 0 0 1rem;
+}
+.pubinfo::after {
+    content: "\A\A";
+    white-space: pre;
 }
 .container {
     width: 100%;
@@ -30,19 +48,13 @@ a:link, a:visited {
 .sub-container {
     padding: 1rem 1.5rem 3rem 1.5rem;
 }
-.break {
-    padding: 0.1rem 0 0.1rem 0;
-}
-.pubinfo {
-    padding: 0 0 0 2rem;
-}
-.pubinfo::after {
-    content: "\A";
-    white-space: pre;
-}
 @media (min-width: 576px) {
     body {
         font-size: 1rem;
+    }
+    #updates p {
+        padding: 0 0 0 6.2rem;
+        text-indent: -6.2rem;
     }
     h1 {
         font-size: 1.3rem;
@@ -58,6 +70,25 @@ a:link, a:visited {
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+    .sub-container {
+        padding: 1rem 1.5rem 3rem 1.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1.618fr;
+    }
+    #sub-sub-l {
+        text-align: right;
+        padding: 0 7rem 0 0;
+    }
+    #sub-sub-r {
+        padding: 0.4rem 0 0.4rem 0;
+    }
+    .contact {
+        float: left;
+        width: 19rem;
+    }
+    .links {
+        padding: 0 0 0 0;
     }
 }
 @media (min-width: 992px) and (min-height: 350px) {
