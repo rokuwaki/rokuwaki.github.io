@@ -33,14 +33,12 @@ small {
 .links {
     padding: 0.1rem 0 0 0;
 }
-.pastupdates a {
-    color: #888;
-    text-decoration: none;
-    padding: 0 0 0 1rem;
-}
 .pubinfo::after {
     content: "\A\A";
     white-space: pre;
+}
+.submitted, .submitted a {
+    color: #888;
 }
 .container {
     width: 100%;
@@ -49,6 +47,12 @@ small {
     padding: 1rem 1.5rem 3rem 1.5rem;
 }
 @media (min-width: 576px) {
+    .container {
+        max-width: 576px;
+        margin: 0 auto 0 auto;
+    }
+}
+@media (min-width: 768px) {
     body {
         font-size: 1rem;
     }
@@ -62,12 +66,6 @@ small {
     small {
         font-size: 0.7rem;
     }
-    .container {
-        max-width: 576px;
-        margin: 0 auto 0 auto;
-    }
-}
-@media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
@@ -101,3 +99,30 @@ small {
         max-width: 1140px;
     }
 }
+.read-more-state {
+    display: none;
+}
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999rem;
+}
+.read-more-state ~ .read-more-trigger:before {
+    content: "...";
+    color: #999;
+    padding-left: 2rem;
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: "^";
+}
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
