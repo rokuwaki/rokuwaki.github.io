@@ -1,5 +1,6 @@
 :root {
-    --black: #222;
+    --black: #000;
+    --gray: #999;
 }
 body {
     margin: 0 0 0 0;
@@ -17,8 +18,8 @@ p {
     text-indent: -2rem;
 }
 #updates p {
-    padding: 0 0 0 5.5rem;
-    text-indent: -5.5rem;
+    padding: 0 0 0 4.3rem;
+    text-indent: -4.3rem;
 }
 h1 {
     font-size: 1.105rem;
@@ -38,7 +39,7 @@ small {
     white-space: pre;
 }
 .submitted, .submitted a {
-    color: #888;
+    color: var(--gray);
 }
 .container {
     width: 100%;
@@ -57,8 +58,8 @@ small {
         font-size: 1rem;
     }
     #updates p {
-        padding: 0 0 0 6.2rem;
-        text-indent: -6.2rem;
+        padding: 0 0 0 5.1rem;
+        text-indent: -5.1rem;
     }
     h1 {
         font-size: 1.3rem;
@@ -114,8 +115,12 @@ small {
 }
 .read-more-state ~ .read-more-trigger:before {
     content: "...";
-    color: #999;
-    padding-left: 2rem;
+    color: var(--gray);
+    margin: 0 0 0 2rem;
+}
+.read-more-trigger:hover {
+    color: var(--gray);
+    text-decoration: underline;
 }
 .read-more-state:checked ~ .read-more-trigger:before {
     content: "^";
