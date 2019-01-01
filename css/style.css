@@ -17,6 +17,41 @@ p {
     padding: 0 0 0 2rem;
     text-indent: -2rem;
 }
+.break {
+    padding: 0.1rem 0 0 0;
+}
+.pubinfo::after {
+    content: "\A\A";
+    white-space: pre;
+}
+.cover {
+    width: 100%;
+    min-height: calc(100vh - 0rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cover a {
+    text-decoration: none;
+}
+.cover a:hover {
+    border-bottom: 1px solid var(--black);
+}
+.cover-contents {
+    padding: 0 1rem 0 1rem;
+}
+.cover p {
+    display: block;
+    margin: 1.2rem 0 0 0;
+}
+.container {
+    width: 100%;
+}
+.sub-container {
+    padding: 1rem 1.5rem 3rem 1.5rem;
+}
 #updates p {
     padding: 0 0 0 4.3rem;
     text-indent: -4.3rem;
@@ -31,26 +66,16 @@ h1 a {
 small {
     font-size: 0.595rem;
 }
-.links {
-    padding: 0.1rem 0 0 0;
-}
-.pubinfo::after {
-    content: "\A\A";
-    white-space: pre;
-}
-.submitted, .submitted a {
-    color: var(--gray);
-}
-.container {
-    width: 100%;
-}
-.sub-container {
-    padding: 1rem 1.5rem 3rem 1.5rem;
-}
 @media (min-width: 576px) {
     .container {
         max-width: 576px;
         margin: 0 auto 0 auto;
+    }
+    .cover p {
+        display: inline;
+    }
+    .cover-contents {
+        padding: 0 2rem 2rem 2rem;
     }
 }
 @media (min-width: 768px) {
@@ -73,21 +98,15 @@ small {
     .sub-container {
         padding: 1rem 1.5rem 3rem 1.5rem;
         display: grid;
-        grid-template-columns: 1fr 1.618fr;
+        grid-template-columns: 0.3fr 1fr;
     }
-    #sub-sub-l {
+    .sub-left {
         text-align: right;
-        padding: 0 7rem 0 0;
+        grid-column: 1 / 2;
     }
-    #sub-sub-r {
-        padding: 0.4rem 0 0.4rem 0;
-    }
-    .contact {
-        float: left;
-        width: 19rem;
-    }
-    .links {
-        padding: 0 0 0 0;
+    .sub-right {
+        padding: 0.4rem 0 0.4rem 5rem;
+        grid-column: 2 / 3;
     }
 }
 @media (min-width: 992px) and (min-height: 350px) {
@@ -118,10 +137,6 @@ small {
     color: var(--gray);
     margin: 0 0 0 2rem;
 }
-.read-more-trigger:hover {
-    color: var(--gray);
-    text-decoration: underline;
-}
 .read-more-state:checked ~ .read-more-trigger:before {
     content: "^";
 }
@@ -129,5 +144,3 @@ small {
     cursor: pointer;
     display: inline-block;
 }
-
-
