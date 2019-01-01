@@ -32,6 +32,7 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background: gray;
 }
 .cover a {
     text-decoration: none;
@@ -40,7 +41,7 @@ p {
     border-bottom: 1px solid var(--black);
 }
 .cover-contents {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 4rem 1rem;
 }
 .cover p {
     display: block;
