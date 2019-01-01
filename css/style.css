@@ -32,7 +32,6 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background: gray;
 }
 .cover a {
     text-decoration: none;
