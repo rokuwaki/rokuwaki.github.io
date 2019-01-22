@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <title>Ryo Okuwaki</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400&amp;subset=greek,greek-ext,japanese,latin-ext">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
+  
   <body>
     
     <div class="cover">
@@ -21,11 +24,19 @@
     
     <div class="container">
       
+      <div class="sticky-nav nav">
+        <p><h1><a href="#" title="back to top"><i class="material-icons">home</i></a></h1></p>
+        <p><h1><a href="#contacts" title="contacts"><i class="material-icons">contacts</i></a></h1></p>
+        <p><h1><a href="#pubs" title="publications"><i class="material-icons">folder</i></a></h1></p>
+      </div>
+      
       <div class="sub-container" id="contacts">
         
         <div class="sub-left">
-          <p><h1><a href="#contacts">CONTACTS</a></h1></p>
-        </div>
+          <div class="sticky-nav">
+            <p><h1><a href="#contacts">CONTACTS</a></h1></p>
+          </div>
+        </div>        
         
         <div class="sub-right">
           <p><a href="mailto:rokuwaki@geol.tsukuba.ac.jp">Email</a> <small>rokuwaki@geol.tsukuba.ac.jp</small></p>
@@ -40,11 +51,13 @@
       <div class="sub-container" id="pubs">
         
         <div class="sub-left">
-          <p><h1><a href="#pubs">PUBLICATIONS</a></h1></p>
+          <div class="sticky-nav">
+            <p><h1><a href="#pubs">PUBLICATIONS</a></h1></p>
+          </div>
         </div>
         
         <div class="sub-right">
-
+          
           <div class="pubinfo">
             <p><a href="https://scholar.google.com/citations?hl=en&user=SQ9MZgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
             <p><a href="https://orcid.org/0000-0001-7149-4763">ORCiD</a></p>
@@ -164,9 +177,10 @@
           
         </div><!-- .sub-right -->
         
-      </div><!-- .sub-container -->
-      
+      </div><!-- .sub-container #pubs -->
+
     </div><!-- .container -->
-    
+
   </body>
+  
 </html>
