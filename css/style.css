@@ -137,7 +137,7 @@ small {
     .sub-container {
         padding: 1rem 1rem 3rem 2.5rem;
         display: grid;
-        grid-template-columns: 0.2fr 1fr;
+        grid-template-columns: 0.3fr 1fr;
     }
     .sub-left {
         text-align: right;
@@ -157,6 +157,9 @@ small {
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+    .sub-container {
+        grid-template-columns: 0.2fr 1fr;
     }
 }
 @media (min-width: 1200px) {
