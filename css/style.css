@@ -83,29 +83,6 @@ h1 {
 small {
     font-size: 0.595rem;
 }
-.footer {
-    padding: 0.3rem 0 0 0;
-    width: 100%;
-    min-height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer p {
-    display: inline;
-    margin: 0 5vw 0 5vw;
-}
-.footer a {
-    color: var(--gray);
-}
-.footer .material-icons {
-    font-size: 1.105rem;
-}
-.footer a:hover {
-    color: var(--black);
-}
 @media (min-width: 576px) {
     .container {
         max-width: 576px;
@@ -149,9 +126,6 @@ small {
     }
     .nav {
         visibility: visible;
-    }
-    .footer {
-        display: none;
     }
 }
 @media (min-width: 992px) {
