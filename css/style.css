@@ -18,42 +18,26 @@ p {
     text-indent: -2rem;
 }
 .pubinfo {
-    padding: 0 0 3rem 0;
+    padding: 0 0 2rem 0;
 }
 .cover {
     width: 100%;
     min-height: calc(100vh - 0rem);
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    background: linear-gradient(to bottom,rgba(255,255,255,1),rgba(255,255,255,1) 96%,rgba(255,255,255,0)); 
-    position: relative;
-    z-index: 1;
-    transform: translate3d(0,0,1);
-    -webkit-transform: translate3d(0,0,1);
 }
 .cover a, h1 a {
     text-decoration: none;
 }
+.cover .sub-right a {
+    padding: 0 2rem 0 0;
+}
 .cover a:hover, h1 a:hover {
     text-decoration: underline;
 }
-.cover-contents {
-    padding: 0 1rem 6rem 1rem;
-}
-.cover p {
-    margin: 1.2rem 0 0 0;
-}
-.cover h1 {
-    display: inline;
-}
 .container {
     width: 100%;
-    z-index: 0;
-    transform: translate3d(0,0,0);
-    -webkit-transform: translate3d(0,0,0);
 }
 .sub-container {
     padding: 1rem 1.5rem 3rem 1.5rem;
@@ -63,20 +47,6 @@ p {
     position: sticky;
     top: 2rem;
 }
-.nav {
-    visibility: hidden;
-    margin: -12rem 0 0 0;
-    width: 2rem;
-}
-.nav a {
-    color: var(--gray);
-}
-.nav a:hover {
-    color: var(--black);
-}
-.material-icons {
-    padding: 0.2rem 0 0 0;
-}
 h1 {
     font-size: 1.105rem;
     font-weight: 400;
@@ -84,25 +54,10 @@ h1 {
 small {
     font-size: 0.595rem;
 }
-.cover-me img {
-    display: flex;
-    width: 6rem;
-    margin: 1rem 0 1.5rem 0;
-    border-radius: 10rem;
-}
 @media (min-width: 576px) {
     .container {
         max-width: 576px;
         margin: 0 auto 0 auto;
-    }
-    .cover p {
-        display: inline;
-    }
-    .cover-contents {
-        padding: 0 2rem 0 0;
-    }
-    .pubinfo {
-        padding: 0 0 4rem 0;
     }
 }
 @media (min-width: 768px) {
@@ -119,7 +74,7 @@ small {
         max-width: 720px;
     }
     .sub-container {
-        padding: 1rem 1rem 3rem 2.5rem;
+        padding: 1rem 1rem 1rem 1rem;
         display: grid;
         grid-template-columns: 0.3fr 1fr;
     }
@@ -128,14 +83,8 @@ small {
         grid-column: 1 / 2;
     }
     .sub-right {
-        padding: 0.4rem 0 5rem 5rem;
+        padding: 0.4rem 0 1rem 4rem;
         grid-column: 2 / 3;
-    }
-    .nav {
-        visibility: visible;
-    }
-    .cover-me img {
-        margin: 1rem 0 0 3.5rem;
     }
 }
 @media (min-width: 992px) {
@@ -149,8 +98,5 @@ small {
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
-    }
-    .cover-me img {
-        margin: 1rem 0 0 5.1rem;
     }
 }
