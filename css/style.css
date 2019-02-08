@@ -31,10 +31,13 @@ p {
     text-decoration: none;
 }
 .cover .sub-right a {
-    padding: 0 2rem 0 0;
+    margin: 0 2rem 0 0;
 }
 .cover a:hover, h1 a:hover {
     text-decoration: underline;
+}
+#wide-nav {
+    display: none;
 }
 .container {
     width: 100%;
@@ -85,6 +88,12 @@ small {
     .sub-right {
         padding: 0.4rem 0 1rem 4rem;
         grid-column: 2 / 3;
+    }
+    #narrow-nav {
+        display: none;
+    }
+    #wide-nav {
+        display: inline;
     }
 }
 @media (min-width: 992px) {
