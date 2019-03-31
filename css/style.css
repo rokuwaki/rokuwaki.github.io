@@ -36,9 +36,6 @@ p {
 .cover a:hover, h1 a:hover {
     text-decoration: underline;
 }
-#wide-nav {
-    display: none;
-}
 .container {
     width: 100%;
 }
@@ -56,6 +53,10 @@ h1 {
 }
 small {
     font-size: 0.595rem;
+}
+.code {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
 }
 @media (min-width: 576px) {
     .container {
@@ -88,12 +89,6 @@ small {
     .sub-right {
         padding: 0.4rem 0 1rem 4rem;
         grid-column: 2 / 3;
-    }
-    #narrow-nav {
-        display: none;
-    }
-    #wide-nav {
-        display: inline;
     }
 }
 @media (min-width: 992px) {
