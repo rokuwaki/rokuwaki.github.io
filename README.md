@@ -1,1 +1,1 @@
-# [rokuwaki.github.io](https://rokuwaki.github.io)
+[https://www.geol.tsukuba.ac.jp/~rokuwaki/](https://www.geol.tsukuba.ac.jp/~rokuwaki/)
