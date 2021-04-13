@@ -101,7 +101,7 @@ b {
 }
 
 img.research-fig {
-  width: auto ;
+  width: auto;
   max-width: 100%;
   height: auto;
   display: block;
@@ -115,7 +115,6 @@ img.research-fig {
 }
 
 .sub-container-child-right {
-  #margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -147,7 +146,6 @@ img.research-fig {
 .sign {
   font-family: 'Caveat', sans-serif;
   color: var(--gray-link);
-  #font-size: 0.65rem;
   margin: 0.5rem 0 3rem 0;
 }
 
@@ -239,11 +237,6 @@ li>div {
 
 li>.year {
   display: none;
-}
-
-div.note {
-  #font-size: 0.6rem;
-  #margin-top: -0.55rem;
 }
 
 .search:focus, .sort:focus {
@@ -340,7 +333,6 @@ button {
 }
 
 @media screen and (min-width: 900px) and (min-height: 480px) {
-
   .sub-container-parent {
     display: grid;
     grid-template-columns: 1fr 10rem;
@@ -361,8 +353,6 @@ button {
   .sub-container-child-left-nav-grid-outer {
     display: grid;
     grid-template-columns: 1fr auto auto auto;
-    #padding: 1rem 1rem 1rem 1rem;
-    #line-height: 2rem;
   }
 
   .sub-container-child-left-nav-grid-name {
@@ -373,7 +363,6 @@ button {
   .sub-container-child-left-nav-grid-research {
     grid-column: 2 / 3;
     border-bottom: 2px solid #ccebc5;
-    #margin: 0 1rem 0 1rem;
   }
 
   .sub-container-child-left-nav-grid-pubs {
@@ -385,13 +374,11 @@ button {
   .sub-container-child-left-nav-grid-contact {
     grid-column: 4 / 5;
     border-bottom: 2px solid #fbb4ae;
-    #margin: 0 1rem 0 1rem;
   }
 
   .sub-container-child-left-research-grid-outer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    #padding: 1rem 1rem 1rem 1rem;
   }
 
   .sub-container-child-left-research-grid-eq {
@@ -406,7 +393,7 @@ button {
 
   img.research-fig {
     max-height: 18rem;
-    width: auto ;
+    width: auto;
   }
 
   .sub-container-icon-only-mobile {
@@ -416,5 +403,4 @@ button {
   .icon-hidden {
     display: inline;
   }
-
 }
