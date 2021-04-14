@@ -77,6 +77,7 @@ p {
 .sub-container-child-left-nav-grid-outer {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
+  width: calc(100vw - 7rem);
 }
 
 .sub-container-child-left-nav-grid-outer a,
@@ -347,6 +348,7 @@ button {
   }
 
   .sub-container-child-left-nav-grid-outer {
+    width: auto;
     display: grid;
     grid-template-columns: 1fr auto auto auto;
   }
