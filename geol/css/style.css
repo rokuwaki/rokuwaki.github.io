@@ -49,6 +49,10 @@ b {
   font-weight: 500;
 }
 
+p {
+  text-align:justify;
+}
+
 .container {
   position: relative;
   max-width: 1750px;
