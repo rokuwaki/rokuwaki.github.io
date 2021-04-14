@@ -72,6 +72,7 @@ b {
 
 .sub-container-child-left-nav-grid-outer {
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .sub-container-child-left-nav-grid-outer a,
@@ -92,7 +93,7 @@ b {
   margin: 0 0 1rem 0;
 }
 
-.short-bio {
+.short-bio, .research-title {
   letter-spacing: 2px;
 }
 
@@ -149,29 +150,20 @@ img.research-fig {
   margin: 0.5rem 0 3rem 0;
 }
 
-.email {
-  font-family: 'Source Code Pro', sans-serif;
-  letter-spacing: 1px;
-}
-
 .title {
   letter-spacing: 2px;
   line-height: 2rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
   display: inline-block;
+  border-bottom: 2px solid var(--gray-link-border);
+
 }
 
-.sub-container-child-left-nav-grid-research, #research {
-  border-bottom: 2px solid #ccebc5;
-}
-
-.sub-container-child-left-nav-grid-pubs, #pubs {
-  border-bottom: 2px solid #b3cde3;
-}
-
-.sub-container-child-left-nav-grid-contact, #contact {
-  border-bottom: 2px solid #fbb4ae;
+.sub-container-child-left-nav-grid-research,
+.sub-container-child-left-nav-grid-pubs,
+.sub-container-child-left-nav-grid-contact {
+  border-bottom: 2px solid var(--gray-link-border);
 }
 
 .logo-itf {
@@ -224,7 +216,7 @@ ul {
 
 .email {
   font-family: 'Source Code Pro', monospace;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 li {
@@ -362,18 +354,15 @@ button {
 
   .sub-container-child-left-nav-grid-research {
     grid-column: 2 / 3;
-    border-bottom: 2px solid #ccebc5;
   }
 
   .sub-container-child-left-nav-grid-pubs {
     grid-column: 3 / 4;
-    border-bottom: 2px solid #b3cde3;
     margin: 0 1rem 0 1rem;
   }
 
   .sub-container-child-left-nav-grid-contact {
     grid-column: 4 / 5;
-    border-bottom: 2px solid #fbb4ae;
   }
 
   .sub-container-child-left-research-grid-outer {
