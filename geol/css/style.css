@@ -117,7 +117,7 @@ img.research-fig {
 
 .research-fig-caption {
   text-align: center;
-  font-size: 0.55rem;
+  font-size: 0.6rem;
 }
 
 .sub-container-child-right {
@@ -242,11 +242,13 @@ li>.year {
 
 .search-result {
   margin: 0 0 0 1rem;
+  font-size: 0.6rem;
 }
 
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
+  font-size: 0.6rem;
 }
 
 input {
