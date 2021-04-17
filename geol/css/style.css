@@ -7,7 +7,7 @@
 
 body {
   margin: 0 0 0 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'M PLUS Rounded 1c', 'Noto Sans JP', sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
@@ -18,12 +18,6 @@ body {
   line-height: 1.2rem;
 }
 
-h1 {
-  display: inline;
-  font-weight: 300;
-  font-size: 1.5rem;
-}
-
 a:link, a:visited {
   text-decoration: none;
   color: var(--black);
@@ -32,7 +26,8 @@ a:link, a:visited {
 }
 
 .link-icon a,
-.sub-container-child-right a {
+.sub-container-child-right a,
+.pub-status a {
   color: var(--gray);
 }
 
@@ -50,7 +45,7 @@ b {
 }
 
 p {
-  text-align:justify;
+  text-align: justify;
 }
 
 .container {
@@ -93,7 +88,6 @@ p {
 
 .sub-container-child-left-nav-grid-name {
   font-size: 1.2rem;
-  font-weight: 300;
   letter-spacing: 5px;
   margin: 0 0 1rem 0;
 }
@@ -156,13 +150,12 @@ img.research-fig {
 }
 
 .title {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   line-height: 2rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
   display: inline-block;
   border-bottom: 2px solid var(--gray-link-border);
-
 }
 
 .sub-container-child-left-nav-grid-research,
@@ -186,8 +179,8 @@ img.research-fig {
 }
 
 .ai {
-  font-size: 1.2rem;
-  margin: 0.5rem 0.3rem 0 0.3rem;
+  font-size: 1rem;
+  margin: 0.5rem 0.45rem 0 0.45rem;
 }
 
 #pub-list {
@@ -197,18 +190,15 @@ img.research-fig {
 ul {
   list-style: none;
   padding-left: 0;
+  font-size: 0.6rem;
 }
 
-.pub-title {
-  font-weight: 500;
-}
-
-.journal-name {
-  font-weight: 400;
+.pub-title, .author {
+  font-size: 0.75rem;
 }
 
 .pub-status {
-  font-size: 0.6rem;
+  color: var(--gray);
 }
 
 .public-media {
@@ -216,12 +206,6 @@ ul {
   display: inline-block;
   margin: 0.5rem 0 0 0;
   padding: 0.1rem 0 0 0;
-  font-size: 0.6rem;
-}
-
-.email {
-  font-family: 'Source Code Pro', monospace;
-  letter-spacing: 1px;
 }
 
 li {
@@ -247,13 +231,12 @@ li>.year {
 
 button, input, select, textarea {
   font-family: inherit;
-  font-size: 100%;
   font-size: 0.6rem;
 }
 
 input {
   border-radius: 25px;
-  padding: 5px 15px 7px 15px;
+  padding: 5px 15px 5px 15px;
   background-color: transparent;
   border: solid 1px rgba(0, 0, 0, 0.2);
   width: 150px;
@@ -287,7 +270,7 @@ button {
 }
 
 .sort {
-  padding: 5px 15px 7px 15px;
+  padding: 5px 10px 6px 10px;
   border-radius: 10px;
   border: none;
   display: inline-block;
@@ -329,6 +312,21 @@ button {
 #hits, #total-count {
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0px;
+}
+
+.trace-image {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../image/trace.png) center left no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0.85rem;
+  margin: 2rem 0 0 0;
+  opacity: 0.1;
+}
+
+#contact {
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 900px) and (min-height: 480px) {
