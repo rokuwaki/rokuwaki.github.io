@@ -245,6 +245,7 @@ input {
   margin-bottom: 5px;
   text-transform: none;
   text-shadow: none;
+  -webkit-appearance: none;   
 }
 
 button {
