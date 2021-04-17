@@ -67,6 +67,7 @@ p {
   display: inline-block;
   letter-spacing: 2px;
   line-height: 2rem;
+  font-size: 0.6rem;
 }
 
 .sub-container-child-left-nav-grid-outer {
@@ -364,15 +365,18 @@ button {
 
   .sub-container-child-left-nav-grid-research {
     grid-column: 2 / 3;
+    font-size: 0.75rem;
   }
 
   .sub-container-child-left-nav-grid-pubs {
     grid-column: 3 / 4;
     margin: 0 1rem 0 1rem;
+    font-size: 0.75rem;
   }
 
   .sub-container-child-left-nav-grid-contact {
     grid-column: 4 / 5;
+    font-size: 0.75rem;
   }
 
   .sub-container-child-left-research-grid-outer {
