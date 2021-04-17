@@ -57,7 +57,7 @@ p {
 }
 
 .sub-container-child-left {
-  padding: 3rem 1rem 5rem 1rem;
+  padding: 3.4rem 1rem 5rem 1rem;
 }
 
 .sub-container-child-left-nav-grid-outer,
@@ -70,7 +70,7 @@ p {
 }
 
 .sub-container-child-left-nav-grid-outer {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding-bottom: 1rem;
   width: calc(100vw - 7rem);
 }
@@ -89,7 +89,7 @@ p {
 .sub-container-child-left-nav-grid-name {
   font-size: 1.2rem;
   letter-spacing: 5px;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.1rem 0;
 }
 
 .short-bio, .research-title {
@@ -245,7 +245,7 @@ input {
   margin-bottom: 5px;
   text-transform: none;
   text-shadow: none;
-  -webkit-appearance: none;   
+  -webkit-appearance: none;
 }
 
 button {
@@ -338,6 +338,7 @@ button {
 
   .sub-container-child-left {
     grid-column: 1 / 2;
+    padding-top: 3rem;
   }
 
   .sub-container-child-right {
@@ -352,6 +353,7 @@ button {
     width: auto;
     display: grid;
     grid-template-columns: 1fr auto auto auto;
+    margin-bottom: 1rem;
   }
 
   .sub-container-child-left-nav-grid-name {
