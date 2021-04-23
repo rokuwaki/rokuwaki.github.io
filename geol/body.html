@@ -360,42 +360,36 @@
 
           </ul>
 
-          <div class="contact-area">
+        </div> <!-- .pub-list -->
 
-            <div class="contact-area-left">
-              <div class="title" id="contact">CONTACT</div>
-              <div><a href="https://trios.tsukuba.ac.jp/en/researcher/0000004310">Ryo Okuwaki, Assistant Professor,<br>Mountain Science Center / Faculty of Life and Environmental Sciences,<br>University of Tsukuba</a></div>
-              <div>1-1-1 Ten'nodai, Tsukuba, Ibaraki 305-8572, Japan</div>
-              <div>　</div>
-              <div><a href="https://trios.tsukuba.ac.jp/researcher/0000004310">奥脇 亮 博士 (理学)<br>筑波大学 生命環境系/山岳科学センター 助教</a></div>
-              <div>〒305-8572 茨城県つくば市天王台1-1-1</div>
-              <div>　</div>
-              <div><a href="https://github.com/rokuwaki/rokuwaki.github.io/blob/master/geol/cv.pdf">CV</a> │ <a href="https://github.com/rokuwaki/rokuwaki.github.io/blob/master/geol/cv_j.pdf">履歴書</a> │ <a
-                  href="mailto:rokuwaki@geol.tsukuba.ac.jp">e-mail</a> │ <a href="https://twitter.com/rokuwaki">@rokuwaki</a></div>
-            </div>
+        <div class="contact-area">
 
-            <div class="contact-area-right">
-              <div class="twitter-feed" id="twitter-timeline">
-                <a class="twitter-timeline" href="https://twitter.com/rokuwaki" data-chrome="noheader nofooter noborders transparent " data-tweet-limit="10" dnt="true"></a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <a href="https://twitter.com/rokuwaki" target="_blank">More tweets @rokuwaki</a>
-              </div>
+          <div class="contact-area-left">
+            <div class="title" id="contact">CONTACT</div>
+            <div><a href="https://trios.tsukuba.ac.jp/en/researcher/0000004310">Ryo Okuwaki, Assistant Professor,<br>Mountain Science Center / Faculty of Life and Environmental Sciences,<br>University of Tsukuba</a></div>
+            <div>1-1-1 Ten'nodai, Tsukuba, Ibaraki 305-8572, Japan</div>
+            <div>　</div>
+            <div><a href="https://trios.tsukuba.ac.jp/researcher/0000004310">奥脇 亮 博士 (理学)<br>筑波大学 生命環境系/山岳科学センター 助教</a></div>
+            <div>〒305-8572 茨城県つくば市天王台1-1-1</div>
+            <div>　</div>
+            <div><a href="https://github.com/rokuwaki/rokuwaki.github.io/blob/master/geol/cv.pdf">CV</a> │ <a href="https://github.com/rokuwaki/rokuwaki.github.io/blob/master/geol/cv_j.pdf">履歴書</a> │ <a
+                href="mailto:rokuwaki@geol.tsukuba.ac.jp">e-mail</a> │ <a href="https://twitter.com/rokuwaki">@rokuwaki</a></div>
+          </div>
+
+          <div class="contact-area-right">
+            <div class="twitter-feed" id="twitter-timeline">
+              <a class="twitter-timeline" href="https://twitter.com/rokuwaki" data-chrome="noheader nofooter noborders transparent " data-tweet-limit="10" dnt="true"></a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a href="https://twitter.com/rokuwaki" target="_blank">More tweets @rokuwaki</a>
             </div>
           </div>
 
-        </div>
+        </div> <!-- .contacct-area -->
 
       </div> <!-- .sub-container-child-left -->
 
       <div class='sub-container-child-right'>
-        <div class="icon-hidden">
-          <a href="https://www.tsukuba.ac.jp/"><img class="logo-itf" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-itf-b.svg"></a>
-          <a href="https://www.tsukuba.ac.jp/"><img class="logo-tsk" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-tsk-b.svg"></a>
-          <a href="https://msc.tsukuba.ac.jp/"><img class="logo-msc" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-msc-b.svg"></a>
-        </div>
-      </div>
-
-      <div class='sub-container-icon-only-mobile'>
+        <!-- <div class='sub-container-icon-only-mobile'> -->
         <a href="https://www.tsukuba.ac.jp/"><img class="logo-itf" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-itf-b.svg"></a>
         <a href="https://www.tsukuba.ac.jp/"><img class="logo-tsk" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-tsk-b.svg"></a>
         <a href="https://msc.tsukuba.ac.jp/"><img class="logo-msc" src="https://github.com/rokuwaki/rokuwaki.github.io/raw/master/geol/image/logo-msc-b.svg"></a>
@@ -415,66 +409,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
-  <script>
-    var options = {
-      valueNames: ['author', 'year', 'pub-title', 'journal']
-    };
-    var userList = new List('pub-list', options);
-
-    userList.on('searchComplete', function(a) {
-      $("#hits").html('Papers: ' + a.matchingItems.length + '/');
-      $("#total-count").html(userList.size);
-
-    });
-  </script>
-
-  <script>
-    $('.twitter-feed').delegate('#twitter-widget-0', 'DOMSubtreeModified propertychange', function() {
-      customizeTweetMedia();
-    });
-
-    var customizeTweetMedia = function() {
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '0.75rem');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('color', '#000000');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-name').css('font-size', '0.75rem');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-name').css('font-weight', '400');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-name').css('color', '#000000');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('div.timeline-Body').css('font-size', '0.75rem');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('a').css('color', '#000000');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('a:hover').css('color', '#000000');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('div.timeline-Tweet-retweetCredit').css('font-size', '0.75rem');
-
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('div.Icon').css('font-size', '0.75rem');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('div.Icon--retweetBadge').css('height', '1rem');
-
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('color', '#000000');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-size', '0.75rem');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('line-height', '1rem');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('ul.timeline-tweet-actions').css('display', 'none');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('a.timeline-Tweet-timestamp').css('font-size', '0.75rem');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('a.timeline-Tweet-timestamp').css('font-weight', '300');
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('h2').css('font-weight', '400');
-
-
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append('<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap" rel="stylesheet">');
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>p.timeline-tweet-text {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>span.TweetAuthor-screenName {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>div.timeline-Body {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>div.timeline-Tweet-retweetCredit {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>div.Icon {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-      $('.twitter-feed').find('.twitter-timeline').contents().find('head').append("<style type='text/css'>div.timeline-Tweet-metadata {font-family: 'M PLUS Rounded 1c', sans-serif}</style>");
-
-    }
-  </script>
+  <script src="https://rokuwaki.github.io/geol/js/sortpub.js"></script>
+  <script src="https://rokuwaki.github.io/geol/js/twitterfeed.js"></script>
 
 </body>

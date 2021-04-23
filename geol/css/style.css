@@ -83,11 +83,6 @@ p {
 }
 
 .sub-container-child-right {
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.sub-container-icon-only-mobile {
   position: absolute;
   top: 0;
   left: calc(100vw - 5rem);
@@ -98,18 +93,14 @@ p {
   text-align: center;
 }
 
-.sub-container-icon-only-mobile .logo-itf {
+.sub-container-child-right .logo-itf {
   width: 100%;
 }
 
-.sub-container-icon-only-mobile .logo-tsk,
-.sub-container-icon-only-mobile .logo-msc {
+.sub-container-child-right .logo-tsk,
+.sub-container-child-right .logo-msc {
   width: 4rem;
   margin: 0.5rem auto 0 auto;
-}
-
-.icon-hidden {
-  display: none;
 }
 
 .title {
@@ -118,15 +109,6 @@ p {
   margin-top: 5rem;
   margin-bottom: 1rem;
   display: inline-block;
-}
-
-.logo-itf {
-  width: 10rem;
-}
-
-.logo-tsk, .logo-msc {
-  width: 8rem;
-  margin: 1rem 1rem 0.5rem 1rem;
 }
 
 #pub-list {
@@ -292,6 +274,17 @@ button {
     top: 0;
     height: 100vh;
     margin: 0;
+    width: auto;
+  }
+
+  .sub-container-child-right .logo-itf {
+    width: 10rem;
+  }
+
+  .sub-container-child-right .logo-tsk,
+  .sub-container-child-right .logo-msc {
+    width: 8rem;
+    margin: 1rem auto 0.5rem auto;
   }
 
   .sub-container-child-left-nav-grid-outer {
@@ -337,14 +330,6 @@ button {
     margin: 0 0 0 1rem;
   }
 
-  .sub-container-icon-only-mobile {
-    display: none;
-  }
-
-  .icon-hidden {
-    display: inline;
-  }
-
   .title {
     margin-top: 8rem;
   }
@@ -368,5 +353,4 @@ button {
     grid-column: 2 / 3;
     padding-top: 8.5rem;
   }
-
 }
