@@ -53,7 +53,7 @@ p {
 .sub-container-child-left-nav-grid-pubs,
 .sub-container-child-left-nav-grid-contact {
   display: inline-block;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 2rem;
   font-size: 0.6rem;
 }
@@ -294,5 +294,13 @@ button {
     width: auto;
     max-width: 100%;
   }
+
+  .sub-container-child-left-nav-grid-outer,
+  .sub-container-child-left-nav-grid-research,
+  .sub-container-child-left-nav-grid-pubs,
+  .sub-container-child-left-nav-grid-contact {
+    letter-spacing: 4px;
+  }
+
 
 }
