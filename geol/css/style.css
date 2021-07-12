@@ -38,14 +38,14 @@ p {
 
 .container {
   position: relative;
-  max-width: 1750px;
+  max-width: 1280px;
   height: 100%;
   margin: 0 auto 0 auto;
   box-sizing: border-box;
 }
 
 .sub-container-child-left {
-  padding: 3.4rem 1rem 3rem 1rem;
+  padding: 4rem 2rem 3rem 2rem;
 }
 
 .sub-container-child-left-nav-grid-outer,
@@ -53,7 +53,7 @@ p {
 .sub-container-child-left-nav-grid-pubs,
 .sub-container-child-left-nav-grid-contact {
   display: inline-block;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   line-height: 2rem;
   font-size: 0.6rem;
 }
@@ -80,27 +80,6 @@ p {
 
 .sub-container-child-left-research-grid-eq {
   margin: 0 0 3rem 0;
-}
-
-.sub-container-child-right {
-  position: absolute;
-  top: 0;
-  left: calc(100vw - 5rem);
-  height: 15rem;
-  padding: 0 0 0 0;
-  width: 5rem;
-  display: inline;
-  text-align: center;
-}
-
-.sub-container-child-right .logo-itf {
-  width: 100%;
-}
-
-.sub-container-child-right .logo-tsk,
-.sub-container-child-right .logo-msc {
-  width: 4rem;
-  margin: 0.5rem auto 0 auto;
 }
 
 .title {
@@ -255,37 +234,11 @@ button {
   max-width: 400px;
 }
 
-@media screen and (min-width: 900px) and (min-height: 480px) {
-  .sub-container-parent {
-    display: grid;
-    grid-template-columns: 1fr 10rem;
-  }
+.contact-area-left {
+  margin-bottom: 5rem;
+}
 
-  .sub-container-child-left {
-    grid-column: 1 / 2;
-    padding: 3rem;
-    margin-bottom: 5rem;
-  }
-
-  .sub-container-child-right {
-    grid-column: 2 / 3;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    height: 100vh;
-    margin: 0;
-    width: auto;
-  }
-
-  .sub-container-child-right .logo-itf {
-    width: 10rem;
-  }
-
-  .sub-container-child-right .logo-tsk,
-  .sub-container-child-right .logo-msc {
-    width: 8rem;
-    margin: 1rem auto 0.5rem auto;
-  }
+@media screen and (min-width: 600px) {
 
   .sub-container-child-left-nav-grid-outer {
     width: auto;
@@ -315,6 +268,9 @@ button {
     font-size: 0.75rem;
   }
 
+}
+
+@media screen and (min-width: 1024px) {
   .sub-container-child-left-research-grid-outer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -339,18 +295,4 @@ button {
     max-width: 100%;
   }
 
-  .contact-area {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-  }
-
-  .contact-area-left {
-    grid-column: 1 / 2;
-    padding-right: 3rem;
-  }
-
-  .contact-area-right {
-    grid-column: 2 / 3;
-    padding-top: 8.5rem;
-  }
 }
