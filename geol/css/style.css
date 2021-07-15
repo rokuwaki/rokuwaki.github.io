@@ -229,7 +229,7 @@ button {
   margin-bottom: 5rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .sub-container-child-left-nav-grid-outer {
     width: auto;
     display: grid;
