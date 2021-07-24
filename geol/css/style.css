@@ -77,6 +77,7 @@ p {
 
 .short-bio, .research-title {
   letter-spacing: 2px;
+  font-size: 0.6rem;
 }
 
 .sub-container-child-left-research-grid-eq {
@@ -91,6 +92,16 @@ p {
   display: inline-block;
 }
 
+.research-item {
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 0.6rem;
+  line-height: 1.6;
+}
+
+#pubs {
+  margin-top: 7rem;
+}
+
 #pub-list {
   #margin-top: 1rem;
 }
@@ -103,6 +114,10 @@ ul {
 
 .pub-title {
   font-size: 0.75rem;
+}
+
+.contact-info {
+  font-size: 0.6rem;
 }
 
 .citation-indexes {
@@ -271,9 +286,7 @@ button {
   .sub-container-child-left-nav-grid-contact {
     letter-spacing: 4px;
   }
-}
 
-@media screen and (min-width: 1024px) {
   .sub-container-child-left-research-grid-outer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
