@@ -56,7 +56,7 @@ p {
   display: inline-block;
   letter-spacing: 2px;
   line-height: 2rem;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .sub-container-child-left-nav-grid-outer {
@@ -70,21 +70,21 @@ p {
 }
 
 .sub-container-child-left-nav-grid-name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 5px;
   margin: 0 0 0.75rem 0;
 }
 
 .short-bio, .research-title {
   letter-spacing: 2px;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .sub-container-child-left-research-grid-eq {
   margin: 0 0 3rem 0;
 }
 
-.title {
+.title, .button-ml {
   letter-spacing: 5px;
   line-height: 2rem;
   margin-top: 5rem;
@@ -94,7 +94,7 @@ p {
 
 .research-item {
   padding: 0.5rem 0 0.5rem 0;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   line-height: 1.6;
 }
 
@@ -109,7 +109,7 @@ p {
 ul {
   list-style: none;
   padding-left: 0;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .pub-title {
@@ -117,7 +117,7 @@ ul {
 }
 
 .contact-info {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .citation-indexes {
@@ -149,12 +149,12 @@ li>.year {
 
 .search-result {
   margin: 0 0 0 1rem;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 button, input, select, textarea {
   font-family: inherit;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 input {
@@ -240,6 +240,14 @@ button {
 
 .contact-area-left {
   margin-bottom: 5rem;
+}
+
+a.button-ml:hover {
+  cursor: pointer;
+}
+
+#more {
+  display: none;
 }
 
 @media screen and (min-width: 650px) {
