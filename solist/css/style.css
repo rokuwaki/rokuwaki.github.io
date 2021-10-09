@@ -3,7 +3,8 @@
   --cover-color: #FAC668;
   --gray-link: #777777;
   --gray-link-border: #eeeeee;
-  --next-talk: rgba(254,248,237, 0.5);
+  --next-talk: rgba(254, 248, 237, 0.5);
+  --previous-talks-hover: rgba(254, 248, 237, 0.3);
 }
 
 body {
@@ -68,7 +69,29 @@ h1, h2 {
   border-radius: 1rem;
 }
 
-#more {display: none;}
+#more {
+  display: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--cover-color);
+}
+
+.previous-talks {
+  border-top: thin solid var(--cover-color);
+  width: 110px;
+  margin: 5rem auto 0 auto;
+  padding-top: 0.5rem;
+}
 
 @media (min-width: 992px) {
   .sub-container {
