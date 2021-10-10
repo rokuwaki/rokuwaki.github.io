@@ -137,7 +137,8 @@ ul.pub-list>li>.pub-title {
 
 .Navbar__Link-toggle {
   display: none;
-  margin-top: 0.7rem;
+  position: absolute;
+  top: 4.75rem;
 }
 
 .Navbar__Link-brand {
