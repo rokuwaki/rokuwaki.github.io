@@ -146,6 +146,11 @@ ul.pub-list>li>.pub-title {
   padding-left: 0;
 }
 
+
+#menu-primary {
+  display: none;
+}
+
 /* mobile screen (small screen), where the menu toggle appears */
 @media only screen and (max-width: 762px) {
   .grid-outer {
@@ -191,4 +196,55 @@ ul.pub-list>li>.pub-title {
   .Navbar__Link-toggle:hover {
     color: var(--gray-link-hover);
   }
+
+  .Navbar {
+    display: none;
+  }
+
+  #menu-primary {
+    display: block;
+    letter-spacing: 3px;
+    padding: 4rem 0 7rem 0;
+    margin-top: -2rem;
+    line-height: 2rem;
+  }
+
+  /* Hide Menu */
+  #menu-primary-items{
+      display: none;
+  }
+  #menu-toggle-primary a.close-menu-primary{
+      display: none;
+  }
+
+  #menu-toggle-primary {
+    position: absolute;
+    right: 2rem;
+    top: 4.7rem;
+  }
+
+  /* Display Menu Items */
+  #menu-primary:target #menu-primary-items{
+      display: block;
+  }
+  /* Hide Open Toggle Link */
+  #menu-primary:target #menu-toggle-primary a.open-menu-primary{
+      display: none;
+  }
+  /* Show Close Toggle Link */
+  #menu-primary:target #menu-toggle-primary a.close-menu-primary{
+      display: block;
+  }
+
+  ul.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #menu-brand {
+    font-size: var(--navbar-brand-font-size);
+  }
+
+
 }
