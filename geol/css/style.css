@@ -220,7 +220,7 @@ ul.pub-list>li>.pub-title {
   #menu-toggle-primary {
     position: absolute;
     right: 2rem;
-    top: 4.7rem;
+    top: 65px;
   }
 
   /* Display Menu Items */
