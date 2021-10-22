@@ -78,6 +78,10 @@ ul.pub-list>li>.pub-title {
   grid-template-columns: 0.5fr 0.5fr;
 }
 
+#research, #pubs {
+  padding-top: 1rem;
+}
+
 .research-earthquake {
   padding-right: 1rem;
 }
@@ -105,50 +109,35 @@ ul.pub-list>li>.pub-title {
   margin-bottom: 1rem;
 }
 
-.Navbar {
+#menu-primary {
+  width: auto;
   letter-spacing: 3px;
-  display: flex;
-  padding: 2rem 0 7rem 0;
+  padding: 6rem 0 0 0;
+  margin: -4rem 0 6rem 0;
   line-height: 2rem;
 }
 
-.Navbar__Link {
-  padding-left: 2rem;
+#menu-toggle-primary {
+  display: none;
 }
 
-.Navbar__Link a:link,
-.Navbar__Link a:visited {
-  text-decoration: none;
-  color: var(--black);
-}
-
-.Navbar__Link a:hover,
-.Navbar__Link a:active {
-  color: var(--gray-link-hover);
-}
-
-.Navbar__Items {
+ul.menu-items {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+  width: auto;
 }
 
-.Navbar__Items--right {
-  margin-left: auto;
+li.menu-item {
+  float: left;
+  padding-left: 1rem;
 }
 
-.Navbar__Link-toggle {
-  display: none;
-  position: absolute;
-  top: 65px;
-}
-
-.Navbar__Link-brand {
-  font-size: var(--navbar-brand-font-size);
-  padding-left: 0;
-}
-
-
-#menu-primary {
-  display: none;
+#menu-brand {
+  float: left;
+  #font-weight: bold;
 }
 
 /* mobile screen (small screen), where the menu toggle appears */
@@ -165,86 +154,44 @@ ul.pub-list>li>.pub-title {
     padding: 2rem 0 0 0;
   }
 
-  .Navbar__Items,
-  .Navbar {
-    flex-direction: column;
-  }
-
-  .Navbar__Items {
-    display: none;
-  }
-
-  .Navbar__Items--right {
-    margin-left: 0;
-  }
-
-  .Navbar__ToggleShow {
-    display: flex;
-  }
-
-  .Navbar__Link {
-    padding-left: 0;
-  }
-
-  .Navbar__Link-toggle {
-    align-self: flex-end;
-    display: initial;
-    position: absolute;
-    cursor: pointer;
-  }
-
-  .Navbar__Link-toggle:hover {
-    color: var(--gray-link-hover);
-  }
-
-  .Navbar {
-    display: none;
-  }
-
   #menu-primary {
     display: block;
-    letter-spacing: 3px;
-    padding: 4rem 0 7rem 0;
-    margin-top: -2rem;
-    line-height: 2rem;
-  }
-
-  /* Hide Menu */
-  #menu-primary-items{
-      display: none;
-  }
-  #menu-toggle-primary a.close-menu-primary{
-      display: none;
-  }
-
-  #menu-toggle-primary {
-    position: absolute;
-    right: 2rem;
-    top: 65px;
-  }
-
-  /* Display Menu Items */
-  #menu-primary:target #menu-primary-items{
-      display: block;
-  }
-  /* Hide Open Toggle Link */
-  #menu-primary:target #menu-toggle-primary a.open-menu-primary{
-      display: none;
-  }
-  /* Show Close Toggle Link */
-  #menu-primary:target #menu-toggle-primary a.close-menu-primary{
-      display: block;
-  }
-
-  ul.menu-items {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 4rem;
   }
 
   #menu-brand {
-    font-size: var(--navbar-brand-font-size);
+    float: none;
   }
 
+  li.menu-item {
+    float: none;
+    padding: 0;
+  }
 
+  #menu-primary-items {
+    display: none;
+  }
+
+  #menu-toggle-primary a.close-menu-primary {
+    display: none;
+  }
+
+  #menu-toggle-primary {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 4.65rem;
+  }
+
+  #menu-primary:target #menu-primary-items {
+    display: block;
+  }
+
+  #menu-primary:target #menu-toggle-primary a.open-menu-primary {
+    display: none;
+  }
+
+  #menu-primary:target #menu-toggle-primary a.close-menu-primary {
+    display: block;
+  }
 }
