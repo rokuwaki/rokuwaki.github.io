@@ -4,6 +4,7 @@
   --gray-link-hover: #777;
   --navbar-brand-font-size: 1rem;
   --base-font-size: 0.75rem;
+  --medium-font-size: 0.65rem;
   --small-font-size: 0.6rem;
 }
 
@@ -30,10 +31,6 @@ a:link, a:visited {
 
 a:hover, a:active {
   color: var(--gray-link-hover);
-}
-
-p {
-  text-align: justify;
 }
 
 ul.pub-list {
@@ -96,8 +93,10 @@ ul.pub-list>li>.pub-title {
   display: inline-block;
 }
 
-.research-item {
+.research-content {
   padding-top: 0.5rem;
+  font-size: var(--medium-font-size);
+  text-align: justify;
 }
 
 .year {
