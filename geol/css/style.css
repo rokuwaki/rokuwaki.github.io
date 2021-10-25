@@ -64,7 +64,7 @@ ul.pub-list>li>.pub-title {
 }
 
 .section-title {
-  padding: 0 0 0.5rem 0;
+  padding: 1rem 0 0.5rem 0;
   letter-spacing: 3px;
   line-height: 2rem;
   display: inline-block;
@@ -75,7 +75,7 @@ ul.pub-list>li>.pub-title {
   grid-template-columns: 0.5fr 0.5fr;
 }
 
-#research, #pubs {
+#research, #pubs, #contact {
   padding-top: 1rem;
 }
 
@@ -103,9 +103,9 @@ ul.pub-list>li>.pub-title {
   display: none;
 }
 
-.contact-en,
-.contact-jp {
+.contact {
   margin-bottom: 1rem;
+  font-size: var(--medium-font-size);
 }
 
 #menu-primary {
@@ -136,7 +136,6 @@ li.menu-item {
 
 #menu-brand {
   float: left;
-  #font-weight: bold;
 }
 
 /* mobile screen (small screen), where the menu toggle appears */
