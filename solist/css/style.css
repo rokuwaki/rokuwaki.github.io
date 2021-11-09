@@ -15,6 +15,7 @@ body {
   color: var(--black);
   text-align: center;
   letter-spacing: 1px;
+  font-size: 12px;
 }
 
 a:link, a:visited {
@@ -94,6 +95,11 @@ button:hover {
 }
 
 @media (min-width: 992px) {
+
+  body {
+    font-size: 16px;
+  }
+
   .sub-container {
     max-width: 993px;
     margin: 0 auto 0 auto;
