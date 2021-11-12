@@ -2,7 +2,6 @@
   --black: #000;
   --white: #fff;
   --gray-link-hover: #777;
-  --navbar-brand-font-size: 1rem;
   --base-font-size: 0.75rem;
   --medium-font-size: 0.65rem;
   --small-font-size: 0.6rem;
@@ -54,7 +53,7 @@ ul.pub-list>li>.pub-title {
 
 .container {
   position: relative;
-  max-width: 1080px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -112,7 +111,7 @@ ul.pub-list>li>.pub-title {
   width: auto;
   letter-spacing: 3px;
   padding: 6rem 0 0 0;
-  margin: -4rem 0 6rem 0;
+  margin: -4rem 0 2rem 0;
   line-height: 2rem;
 }
 
@@ -154,7 +153,7 @@ li.menu-item {
 
   #menu-primary {
     display: block;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   #menu-brand {
