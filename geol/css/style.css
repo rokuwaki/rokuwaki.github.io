@@ -107,6 +107,11 @@ ul.pub-list>li>.pub-title {
   font-size: var(--medium-font-size);
 }
 
+.misc {
+  color: var(--gray-link-hover);
+  margin-bottom: 0.2rem;
+}
+
 #menu-primary {
   width: auto;
   letter-spacing: 3px;
