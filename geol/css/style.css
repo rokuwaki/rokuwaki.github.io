@@ -2,9 +2,9 @@
   --black: #000;
   --white: #fff;
   --gray-link-hover: #777;
-  --base-font-size: 0.75rem;
-  --medium-font-size: 0.65rem;
-  --small-font-size: 0.6rem;
+  --base-font-size: 0.85rem;
+  --medium-font-size: 0.75rem;
+  --small-font-size: 0.75rem;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-size: var(--base-font-size);
-  line-height: 1.2rem;
+  line-height: 2;
 }
 
 a:link, a:visited {
@@ -40,7 +40,7 @@ ul.pub-list {
 }
 
 ul.pub-list>li {
-  margin: 2rem 0 0 0;
+  margin: 0 0 3rem 0;
 }
 
 ul.pub-list>li.citation {
@@ -59,12 +59,12 @@ ul.pub-list>li>.pub-title {
 }
 
 .sub-container {
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .section-title {
   padding: 1rem 0 0.5rem 0;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 2rem;
   display: inline-block;
 }
@@ -87,7 +87,7 @@ ul.pub-list>li>.pub-title {
 }
 
 .research-title {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 2rem;
   display: inline-block;
 }
@@ -109,14 +109,14 @@ ul.pub-list>li>.pub-title {
 
 .misc {
   color: var(--gray-link-hover);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0rem;
 }
 
 #menu-primary {
   width: auto;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   padding: 6rem 0 0 0;
-  margin: -4rem 0 2rem 0;
+  margin: -4rem 0 4rem 0;
   line-height: 2rem;
 }
 
