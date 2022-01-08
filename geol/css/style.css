@@ -40,7 +40,7 @@ ul.pub-list {
 }
 
 ul.pub-list>li {
-  margin: 0 0 3rem 0;
+  margin: 0 0 2.5rem 0;
 }
 
 ul.pub-list>li.citation {
@@ -105,6 +105,7 @@ ul.pub-list>li>.pub-title {
 .contact {
   margin-bottom: 1rem;
   font-size: var(--medium-font-size);
+  text-align: center;
 }
 
 .misc {
