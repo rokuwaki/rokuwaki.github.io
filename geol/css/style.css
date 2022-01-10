@@ -53,7 +53,7 @@ ul.pub-list>li>.pub-title {
 
 .container {
   position: relative;
-  max-width: 920px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -132,6 +132,7 @@ ul.menu-items {
   margin: 0;
   justify-content: flex-end;
   width: auto;
+  letter-spacing: 1px;
 }
 
 li.menu-item {
@@ -144,11 +145,11 @@ li.menu-item {
 }
 
 .menu-container {
-  display: none;
+  display: block;
 }
 
 /* mobile screen (small screen), where the menu toggle appears */
-@media only screen and (max-width: 762px) {
+@media only screen and (max-width: 300px) {
   .grid-outer {
     display: block;
   }
