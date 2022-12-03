@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Source Code Pro', 'Mulish', 'Noto Sans JP', sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   font-weight: 400;
   color: var(--black);
   -webkit-text-size-adjust: 100%;
@@ -53,7 +53,7 @@ ul.pub-list>li>.pub-title {
 
 .container {
   position: relative;
-  max-width: 768px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
 }
