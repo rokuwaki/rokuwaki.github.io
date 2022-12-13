@@ -185,7 +185,7 @@ li.menu-item {
   }
 
   #menu-primary-items {
-    display: none;
+    display: block;
   }
 
   #menu-toggle-primary a.close-menu-primary {
@@ -209,5 +209,18 @@ li.menu-item {
 
   #menu-primary:target #menu-toggle-primary a.close-menu-primary {
     display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  a:link, a:visited {
+    color: var(--white);
+  }
+  a:hover, a:active {
+    color: var(--gray-link-hover);
   }
 }
