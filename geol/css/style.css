@@ -2,6 +2,7 @@
   --black: #000;
   --white: #fff;
   --gray-link-hover: #777;
+  --black-when-dark-color-scheme: #121212;
   --base-font-size: 0.75rem;
   --medium-font-size: 0.75rem;
   --small-font-size: 0.75rem;
@@ -214,7 +215,7 @@ li.menu-item {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--black);
+    background-color: var(--black-when-dark-color-scheme);
     color: var(--white);
   }
   a:link, a:visited {
