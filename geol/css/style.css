@@ -3,6 +3,7 @@
   --white: #fff;
   --gray-link-hover: #777;
   --black-when-dark-color-scheme: #121212;
+  --white-when-dark-color-scheme: #d2d3d4;
   --base-font-size: 0.75rem;
   --medium-font-size: 0.75rem;
   --small-font-size: 0.75rem;
@@ -216,10 +217,10 @@ li.menu-item {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--black-when-dark-color-scheme);
-    color: var(--white);
+    color: var(--white-when-dark-color-scheme);
   }
   a:link, a:visited {
-    color: var(--white);
+    color: var(--white-when-dark-color-scheme);
   }
   a:hover, a:active {
     color: var(--gray-link-hover);
