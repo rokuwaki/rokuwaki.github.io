@@ -68,6 +68,9 @@ h1, h2 {
 #next-talk {
   background: var(--next-talk);
   border-radius: 1rem;
+  border: 1px solid var(--cover-color);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #more {
