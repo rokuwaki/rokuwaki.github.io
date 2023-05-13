@@ -65,6 +65,10 @@ h1, h2 {
   padding: 1rem 1rem 1rem 1rem;
 }
 
+.presenter {
+  font-weight: 700;
+}
+
 #next-talk {
   background: var(--next-talk);
   border-radius: 1rem;
